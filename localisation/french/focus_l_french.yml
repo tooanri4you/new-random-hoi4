@@ -41,6 +41,7 @@
  naval_effort_desc: "L'expansion de la flotte doit être une priorité absolue. Affectons toutes les ressources disponibles à la construction de chantiers navals et menons des recherches dans le domaine des navires légers de surface."
  GER_naval_effort2: "Extension des installations portuaires"
  GER_naval_effort2_desc: "Si nous voulons réellement reconstruire une marine digne de ce nom, nos capacités de construction navale doivent être considérablement accrues."
+ GER_naval_effort2_tt: "Construit §Y2 chantiers navals§! dans §Y2§! États littoraux possédés par §Y[ROOT.GetFlag][Root.GetLeLaLNP] [ROOT.GetName]§!"
  flexible_navy: "Marine flexible"
  flexible_navy_desc: "Prendre en compte les avancées faites dans la technologie des sous-marins pourrait nous permettre de réinventer la guerre navale en frappant les convois ennemis avec une bien plus grande efficacité."
  large_navy: "Flotte importante"

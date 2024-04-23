@@ -1,6 +1,6 @@
 ﻿l_polish:
  treaty_org.1.t: "Traktat brukselski"
- treaty_org.1.desc: "Po zażegnaniu globalnego zagrożenia kruche porozumienia między rządem [SOV.GetAdjective] i jego zachodnimi sojusznikami zaczęły słabnąć.\n\nObawiając się nieodwracalnego zerwania kontaktów oraz zderzenia ambicji w Europie - co pokazały niedawne wydarzenia we Niemczech Wschodnich - [FROM.GetNameDef] proponuje podczas pospiesznie zwołanej konferencji w Brukseli zawarcie układu o pomocy wzajemnej."
+ treaty_org.1.desc: "Po zażegnaniu globalnego zagrożenia kruche porozumienia między rządem [SOV.GetAdjective] i jego zachodnimi sojusznikami zaczęły słabnąć.\n\nObawiając się nieodwracalnego zerwania kontaktów oraz zderzenia ambicji w Europie - co pokazały niedawne wydarzenia w Niemczech Wschodnich - [FROM.GetNameDef] proponuje zawarcie układu o pomocy wzajemnej podczas pospiesznie zwołanej konferencji w Brukseli."
  treaty_org.1.a: "Trzeba zapanować nad zagrożeniem ze wschodu."
  treaty_org.1.b: "Nie potrzebujemy kolejnej wojny..."
  join_brussels_treaty_tt: "Podpiszemy traktat brukselski"

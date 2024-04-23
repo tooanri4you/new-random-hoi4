@@ -24,6 +24,7 @@
  EQ_MOD_CAT_plane_special_module_large_TITLE: "特殊モジュール（大）"
  EQ_MOD_CAT_plane_special_module_electronics_TITLE: "電子工学"
  EQ_MOD_CAT_plane_special_module_defense_turret_TITLE: "防衛砲塔"
+ EQ_MOD_CAT_plane_special_module_defense_turret_x2_TITLE: "防衛砲塔x2"
  EQ_MOD_CAT_plane_special_module_bomb_sights_TITLE: "爆撃照準器"
  EQ_MOD_CAT_plane_special_module_radio_navigation_TITLE: "無線航行"
  EQ_MOD_CAT_plane_special_module_air_ground_radar_TITLE: "空対地レーダー"

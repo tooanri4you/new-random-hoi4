@@ -1,6 +1,6 @@
 ﻿l_spanish:
  treaty_org.1.t: "El tratado de Bruselas"
- treaty_org.1.desc: "Una vez finiquitada la amenaza mundial inmediata, los endebles acuerdos entre [SOV.GetNameDef] y sus aliados occidentales han empezado a deteriorarse.\n\nTemiendo la ruptura irrevocable de las combinaciones y las ambiciones contrarias en Europa, que han quedado patentes con los acontecimientos recientes en Alemania Oriental, [FROM.GetNameDef] ha propuesto un tratado de asistencia mutua durante una conferencia apresurada en Bruselas."
+ treaty_org.1.desc: "Una vez finiquitada la amenaza mundial inmediata, los endebles acuerdos entre [SOV.GetNameDef] y sus aliados occidentales han empezado a deteriorarse.\n\nTemiendo la ruptura irrevocable de las comunicaciones y las ambiciones contrarias en Europa, que han quedado patentes con los acontecimientos recientes en Alemania Oriental, [FROM.GetNameDef] ha propuesto un tratado de asistencia mutua durante una conferencia apresurada en Bruselas."
  treaty_org.1.a: "Hay que contener la amenaza oriental."
  treaty_org.1.b: "No necesitamos otra guerra..."
  join_brussels_treaty_tt: "Firmaremos el tratado de Bruselas."

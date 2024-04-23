@@ -41,6 +41,7 @@
  naval_effort_desc: "Rozwój marynarki powinien być naszym priorytetem. Przeznaczmy wszystkie dostępne zasoby na budowę nowych stoczni i rozwój lekkich okrętów."
  GER_naval_effort2: "Rozbudowa stoczni"
  GER_naval_effort2_desc: "Żeby stworzyć naprawdę silną marynarkę wojenną, musimy znacznie zwiększyć nasze możliwości budowy okrętów."
+ GER_naval_effort2_tt: "Buduje §Y2 stocznie§! w §Y2§! regionach nadmorskich kontrolowanych przez: §Y[ROOT.GetFlag][ROOT.GetNameDef]§!"
  flexible_navy: "Elastyczna marynarka"
  flexible_navy_desc: "Wykorzystując nowe technologie związane z budową okrętów podwodnych, możemy opracować doktryny zwiększające skuteczność ataków na wrogie konwoje."
  large_navy: "Wielka marynarka"

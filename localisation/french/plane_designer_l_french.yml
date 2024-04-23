@@ -24,6 +24,7 @@
  EQ_MOD_CAT_plane_special_module_large_TITLE: "Composants spéciaux (grands)"
  EQ_MOD_CAT_plane_special_module_electronics_TITLE: "Électronique"
  EQ_MOD_CAT_plane_special_module_defense_turret_TITLE: "Tourelles défensives"
+ EQ_MOD_CAT_plane_special_module_defense_turret_x2_TITLE: "2 tourelles défensives"
  EQ_MOD_CAT_plane_special_module_bomb_sights_TITLE: "Viseur de bombardement"
  EQ_MOD_CAT_plane_special_module_radio_navigation_TITLE: "Navigation radio"
  EQ_MOD_CAT_plane_special_module_air_ground_radar_TITLE: "Radar air-sol"

@@ -41,6 +41,7 @@
  naval_effort_desc: "海軍の拡充を、最優先事項とせねばならない。造船所に可能な資源を全て投入し、小型水上艦を研究するのだ。"
  GER_naval_effort2: "造船所設備の拡張"
  GER_naval_effort2_desc: "真に注目に値する海軍に創り直すため、造船能力を大いに拡大しなければならない。"
+ GER_naval_effort2_tt: "§Y[ROOT.GetFlag][ROOT.GetNameDef]§!に支配されている§Y2箇所§!の沿岸州に§Y2つの海軍造船所§!を建設する"
  flexible_navy: "柔軟な海軍"
  flexible_navy_desc: "潜水艦技術の進歩による海軍戦闘の改革によって、敵輸送船団の効率的な撃滅が可能になるだろう。"
  large_navy: "大規模な海軍"

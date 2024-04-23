@@ -41,6 +41,7 @@
  naval_effort_desc: "A expansão de nossas forças navais deve ser nossa principal prioridade. Atribua todos os recursos disponíveis aos novos estaleiros e pesquise por navios leves de superfície."
  GER_naval_effort2: "Expandir docas"
  GER_naval_effort2_desc: "Para reconstruir de fato uma marinha notável, precisamos expandir nossa capacidade de construção de navios."
+ GER_naval_effort2_tt: "Constrói §Y2 estaleiros navais§! em §Y2§! estados costeiros controlados por §Y[ROOT.GetFlag][ROOT.GetName]§!."
  flexible_navy: "Força naval flexível"
  flexible_navy_desc: "Reinventar o combate naval considerando os avanços em tecnologias submarinas nos permitirá destruir comboios inimigos com eficiência."
  large_navy: "Força naval ampla"

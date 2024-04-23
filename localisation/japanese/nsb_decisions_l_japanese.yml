@@ -29,6 +29,8 @@
  LIT_promote_falange_militancy_desc: "[POL.GetFascistParty]はその過激性と、暴力的なデモによって悪名高い。多くのファシストは[POL.GetFascistParty]のナショナリストの熱意を恐れているが、我々はこれが彼らの心にある、支持されるべき愛国心の発露に過ぎないことを知っている。"
  LIT_ignite_civil_war_in_POL: "蜂起の始まり"
  LIT_ignite_civil_war_in_POL_desc: "準備は整った。ポーランドは間もなく単なる主義主張ではなく、勇気と栄光の戦場となる。我々はポーランドのファランヘ党員の支援に全力を尽くしてきた。あとは賽を投げ、真に神が我らの側にいることを願うのみだ。"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision: "ドブジンスキーの紋章旗デザインを採用"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision_desc: "国旗の色は紋章の色と同じでなければならない。紋章に緑色はなく、国旗にも緑色はない。したがって、ムスティスラフ・ドブジンスキーとヴィドゥナスが私たちに手渡した提案を採用すべきである。"
  march_through_estonia: "エストニアへの進軍"
  march_through_estonia_desc: "コンスタンティン・パッツの貧弱な政府はエストニアの愛国者たちの叫びを十分長く抑え込んできた。エストニア正規軍と単独で戦うには数が足りないが、国内全域で独裁政治に対する我々の苛立ちを行進によって示すことで、若者たちに彼らの父は彼らのために戦い、パッツとその取り巻きは彼らを否定しているということを思い出させることができるかもしれない。"
  EST_stomp_the_vaps: "迫り来る政府の弾圧"
