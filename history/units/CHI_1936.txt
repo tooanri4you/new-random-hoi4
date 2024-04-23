@@ -689,6 +689,238 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
+
+	# SHANXI
+	### Provincial Forces ###
+	division = {
+		name = "Suiyuan Jingbei"
+		location = 4174
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Chahar Jingbei"
+		location = 7048
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+
+	# SIKIANG
+	division = { # "1 Xin'jiang Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4709
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "2 Xin'jiang Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4709
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = { # "3 Xin'jiang Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4709
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+
+	#Ma Clique units - 15 inf divisions, 6 cav divisions
+	division = { # "80 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 80
+		}
+		location = 12846
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "81 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = 1647
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "82 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 82
+		}
+		location = 1933
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "1 Ma Qibing Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7911
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "2 Ma Qibing Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 531
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = { # "3 Ma Qibing Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12846
+		division_template = "Qibing Jun"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		name = "Golmud Jingbei"
+		location = 12846
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.3
+
+	}
+
+	
+	division = {
+		name = "Kunming Jingbei"
+		location = 12789
+		division_template = "Juntuán"			# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Yunnan Baoan Ke"
+		location = 10346
+		division_template = "Juntuán"			# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Dali Baoan Ke"
+		location = 10346
+		division_template = "Juntuán"			# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+
+
+
+	#PRC
+	##### Eighth Route Army (CO: Mao Zedong, Zhu De) #####
+	division = {
+		name = "115 Bubing Shi"
+		location = 5007
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "120 Bubing Shi"
+		location = 7208
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "129 Bubing Shi"
+		location = 517
+		division_template = "Juntuán"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	
+	### Provincial Forces ###
+	division = { #  "1 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12156
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+	division = { #  "2 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10733
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+	division = { #  "3 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10733
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+	division = { #  "4 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 8049
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
+	division = { #  "5 Sanjiao Jun"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 8049
+		division_template = "Sanjiao Jun"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.5
+
+	}
 }
 
 
