@@ -1994,14 +1994,6 @@ on_actions = {
 					transfer_state = 321
 					transfer_state = 320
 				}
-				728 = { add_core_of = GXC }
-				729 = { add_core_of = GXC }
-				326 = { add_core_of = GXC }
-				GXC = {
-					transfer_state = 728
-					transfer_state = 729
-					transfer_state = 326
-				}
 				JAP = {
 					set_autonomy = { target = MAN autonomy_state = autonomy_free }
 					set_autonomy = { target = MEN autonomy_state = autonomy_free }

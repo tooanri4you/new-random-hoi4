@@ -1325,24 +1325,6 @@ awake_and_angry = {
 	}
 }
 
-romance_of_the_three_kingdoms = {
-	id = 56
-	
-	possible = {
-		tag = CHI
-		is_ironman = yes
-		difficulty > 1
-		has_start_date < 1936.01.02
-		has_any_custom_difficulty_setting = no
-		game_rules_allow_achievements = yes
-	}
-	
-	happened = {
-		has_country_flag = achievement_romance_of_the_three_kingdoms_GXC
-		has_country_flag = achievement_romance_of_the_three_kingdoms_YUN
-	}
-}
-
 sun_tzu_reborn = {
 	id = 57
 	
@@ -1535,7 +1517,6 @@ battlecry = {
 	
 	possible = {
 		OR = {
-			tag = GXC
 			tag = YUN
 			tag = SHX
 			tag = XSM
@@ -1573,7 +1554,6 @@ panda_monium = {
 	
 	possible = {
 		OR = {
-			tag = GXC
 			tag = YUN
 			tag = SHX
 			tag = XSM
@@ -1587,12 +1567,6 @@ panda_monium = {
 	}
 	
 	happened = {
-		if = {
-			limit = {
-				NOT = { tag = GXC }
-			}
-			has_war_with = GXC
-		}
 		
 		if = {
 			limit = {
@@ -1632,7 +1606,6 @@ make_a_man_out_of_you = {
 	
 	possible = {
 		OR = {
-			tag = GXC
 			tag = YUN
 			tag = SHX
 			tag = XSM
@@ -2243,7 +2216,6 @@ portugal_macau_my_day = {
 				OR = {
 					original_tag = CHI
 					original_tag = PRC
-					original_tag = GXC
 					original_tag = YUN
 					original_tag = SHX
 					original_tag = XSM
