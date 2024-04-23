@@ -3960,6 +3960,7 @@ focus_tree = {
 		completion_reward = { 
 			unlock_decision_tooltip = POR_buy_aa_in_britain	
 			unlock_decision_tooltip = POR_buy_at_in_britain
+			unlock_decision_tooltip = POR_buy_artillery_in_britain
 		}
 	}
 

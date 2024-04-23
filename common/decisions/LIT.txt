@@ -28,6 +28,72 @@ political_actions = {
 			}
 		}
 	}
+
+	# Adopt Mstislav Dobuzhinsky's Flag
+	LIT_adopt_the_dobuzhinsky_flag_design_decision  = {
+
+		priority = 25
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 0
+		}
+
+		allowed = {  
+			original_tag = LIT
+		}
+
+		available = {
+			has_government = neutrality
+			AND = {
+				has_completed_focus = LIT_secure_a_loyal_cabinet
+				OR = {
+					has_completed_focus = LIT_a_martial_prime_minister
+					has_completed_focus = LIT_a_priestly_prime_minister
+				}
+				NOT = {
+					has_completed_focus = LIT_merge_the_military_and_civilian_governments
+				}
+			}
+		}
+
+		visible = { 
+			original_tag = LIT
+			has_completed_focus = LIT_secure_a_loyal_cabinet
+			NOT = { has_country_flag = LIT_adopted_the_dobuzhinsky_flag }
+			NOT = {
+				OR = {
+					has_global_flag = form_commonwealth_flag
+					has_global_flag = form_baltic_federation_flag
+					has_completed_focus = LIT_merge_the_military_and_civilian_governments
+				}
+			}
+		} 
+
+		#days_remove = 140 
+
+		cost = 25
+
+		complete_effect = {
+
+			add_stability = 0.02
+			add_war_support = 0.01
+
+			hidden_effect = {
+				set_cosmetic_tag =  LIT_dobuzhinsky_flag_cosmetic_tag
+				set_country_flag = LIT_adopted_the_dobuzhinsky_flag 
+			}
+		}
+
+		modifier = {
+		}
+
+		remove_effect = {	
+		}
+
+	}
+
 }
 
 ####NO STEP BACK####

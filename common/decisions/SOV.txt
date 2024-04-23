@@ -476,6 +476,8 @@ SOV_paranoia_system = {
 			}
 			OR = {
 				SOV_is_stalinist = yes
+				SOV_is_left_opposition = yes
+				SOV_is_right_opposition = yes
 				has_country_flag = SOV_assassinated_stalin_flag
 			}
 		}
@@ -540,7 +542,15 @@ SOV_paranoia_system = {
 		}
 
 		available = {
-			has_country_flag = { flag = SOV_third_moscow_trial_flag days > 365 }
+			if = {
+				limit = {
+					has_country_flag = SOV_assassinated_stalin_flag
+				}
+				has_country_flag = SOV_assassinated_stalin_flag
+			}
+			else = {
+				has_country_flag = { flag = SOV_third_moscow_trial_flag days > 365 }
+			}
 		}
 
 		visible = {
@@ -549,7 +559,12 @@ SOV_paranoia_system = {
 				has_idea = SOV_purged_junior_army_officers_2
 				has_idea = SOV_purged_junior_army_officers_3
 			}
-			SOV_is_stalinist = yes
+			OR = {
+				SOV_is_stalinist = yes
+				SOV_is_left_opposition = yes
+				SOV_is_right_opposition = yes
+				has_country_flag = SOV_assassinated_stalin_flag
+			}
 		}
 
 		days_remove = SOV_reinforce_officer_ranks_days
@@ -626,7 +641,15 @@ SOV_paranoia_system = {
 		}
 
 		available = {
-			has_country_flag = { flag = SOV_third_moscow_trial_flag days > 365 }
+			if = {
+				limit = {
+					has_country_flag = SOV_assassinated_stalin_flag
+				}
+				has_country_flag = SOV_assassinated_stalin_flag
+			}
+			else = {
+				has_country_flag = { flag = SOV_third_moscow_trial_flag days > 365 }
+			}
 		}
 
 		visible = {
@@ -635,7 +658,12 @@ SOV_paranoia_system = {
 				has_idea = SOV_purged_junior_navy_officers_2
 				has_idea = SOV_purged_junior_navy_officers_3
 			}
-			SOV_is_stalinist = yes
+			OR = {
+				SOV_is_stalinist = yes
+				SOV_is_left_opposition = yes
+				SOV_is_right_opposition = yes
+				has_country_flag = SOV_assassinated_stalin_flag
+			}
 		}
 
 		days_remove = SOV_reinforce_officer_ranks_days

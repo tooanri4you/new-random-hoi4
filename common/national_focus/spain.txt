@@ -10997,6 +10997,7 @@ focus_tree = {
 	focus = {
 		id = SPR_support_french_communists
 		available = {
+			is_subject = no
 		}
 		bypass = {
 		}

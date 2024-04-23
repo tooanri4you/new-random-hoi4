@@ -15,7 +15,6 @@ CHI_sino_german_technical_mission_organization = {
 		OR = {
 			is_literally_china = yes
 			tag = MAN
-			tag = MEN
 		} 
 		has_dlc = "Waking the Tiger"
 	}
@@ -99,7 +98,6 @@ CHI_camco_medium_organization = {
 		OR = {
 			is_literally_china = yes
 			tag = MAN
-			tag = MEN
 		} 
 		has_dlc = "Waking the Tiger"
 	}
@@ -114,7 +112,6 @@ CHI_camco_fighter_organization = {
 		OR = {
 			is_literally_china = yes
 			tag = MAN
-			tag = MEN
 		} 
 		has_dlc = "Waking the Tiger"
 	}
@@ -129,7 +126,6 @@ CHI_camco_bomber_organization = {
 		OR = {
 			is_literally_china = yes
 			tag = MAN
-			tag = MEN
 		} 
 		has_dlc = "Waking the Tiger"
 	}

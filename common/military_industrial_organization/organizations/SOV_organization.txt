@@ -88,7 +88,6 @@ SOV_morozov_design_bureau_organization = {
 				OR = {
 					is_literally_china = yes
 					tag = MAN
-					tag = MEN
 				} 
 				has_dlc = "Waking the Tiger"
 			}

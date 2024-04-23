@@ -1317,6 +1317,10 @@ on_actions = {
 					#	log = "Lost colony but no BoP impact"
 					#}
 				}
+				# For guaranteeing the balance of power tick will be removed when reconquered
+				FROM.FROM = {
+					set_state_flag = ITA_lost_state_flag
+				} 
 			}
 			else_if = { #Italy gets a core state back
 				limit = {
@@ -1329,7 +1333,7 @@ on_actions = {
 						}
 					}
 					FROM.FROM = {
-						is_owned_by = ITA
+						has_state_flag = ITA_lost_state_flag
 					}
 				}
 				if = {
@@ -1354,6 +1358,9 @@ on_actions = {
 				}
 				else = {
 					ITA_bop_very_low_increase_effect = yes
+				}
+				FROM.FROM = {
+					clr_state_flag = ITA_lost_state_flag
 				}
 			}
 		}

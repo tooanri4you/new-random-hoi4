@@ -2700,6 +2700,11 @@ focus_tree = {
 		relative_position_id = ICE_international_brigades
 		cost = 10
 		available = {
+			ENG = {
+				NOT = {
+					has_government = communism
+				}
+			}
 		}
 
 		search_filters = {}

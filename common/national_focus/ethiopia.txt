@@ -5577,7 +5577,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			custom_effect_tooltip = TODO
 			ITA = {
 				every_owned_state = {
 					limit = {
