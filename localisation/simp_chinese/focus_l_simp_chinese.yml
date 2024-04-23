@@ -41,6 +41,7 @@
  naval_effort_desc: "我们首要目标是扩建我们的海军。所以应该将所有资源投入到新船坞建设和水面舰艇的研究中。"
  GER_naval_effort2: "扩建船坞设施"
  GER_naval_effort2_desc: "要真正重建一支像样的海军，我们必须极大地增强我们的造船能力。"
+ GER_naval_effort2_tt: "在§Y[ROOT.GetFlag][ROOT.GetNameDef]§!当前控制的§Y2§!个沿海地区建造§Y2 海军船坞§!。"
  flexible_navy: "机动舰队"
  flexible_navy_desc: "重新设计海战以诠释潜艇技术的进步，这将使我们更有效地打击敌人的护航舰队。"
  large_navy: "大舰队"

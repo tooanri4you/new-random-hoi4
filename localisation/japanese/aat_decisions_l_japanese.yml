@@ -430,6 +430,8 @@
  DEN_demand_fascist_ban: "ファシズム廃止の要求"
  DEN_demand_weapon_deliveries: "武器輸送の要請"
  DEN_demand_troops: "デンマーク軍を要請"
+ DEN_overlord_requests_the_return_of_the_faroes: "$DEN_request_the_return_of_the_faroes$"
+ DEN_overlord_requests_greenland_back: "$DEN_request_greenland_back$"
  #DECISIONS
  DEN_trade_deal_category: "デンマークとの貿易取引"
  DEN_increase_trade_with_denmark: "[DEN.GetName]との取引を増やす"

@@ -24,6 +24,7 @@
  EQ_MOD_CAT_plane_special_module_large_TITLE: "Особые модули (большие)"
  EQ_MOD_CAT_plane_special_module_electronics_TITLE: "Электроника"
  EQ_MOD_CAT_plane_special_module_defense_turret_TITLE: "Защитные турели"
+ EQ_MOD_CAT_plane_special_module_defense_turret_x2_TITLE: "Защитные турели x2"
  EQ_MOD_CAT_plane_special_module_bomb_sights_TITLE: "Прицел для бомбометания"
  EQ_MOD_CAT_plane_special_module_radio_navigation_TITLE: "Радионавигация"
  EQ_MOD_CAT_plane_special_module_air_ground_radar_TITLE: "Радар «воздух-земля»"

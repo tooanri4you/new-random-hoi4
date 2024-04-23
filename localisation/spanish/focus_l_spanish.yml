@@ -41,6 +41,7 @@
  naval_effort_desc: "La expansión de nuestra Marina de guerra debe ser nuestra primera prioridad. Asigna todos los recursos disponibles para nuevos astilleros e investiga en barcos de superficie ligeros"
  GER_naval_effort2: "Expandir los astilleros"
  GER_naval_effort2_desc: "Si queremos reconstruir una armada en condiciones, debemos expandir enormemente nuestra capacidad de construcción naval."
+ GER_naval_effort2_tt: "Construye §Y2 astilleros navales§! en §Y2§! Estados costeros que estén controlados por §Y[ROOT.GetFlag][ROOT.GetNameDef]§!"
  flexible_navy: "Marina flexible"
  flexible_navy_desc: "Reinventar la guerra naval para contar con los avances en tecnología submarina nos permitirá atacar eficientemente a los convoyes enemigos."
  large_navy: "Marina grande"

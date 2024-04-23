@@ -1,6 +1,6 @@
 ﻿l_braz_por:
  treaty_org.1.t: "O Tratado de Bruxelas"
- treaty_org.1.desc: "Com a contenção da ameaça global iminente, iniciou-se a deterioração de acordos frágeis entre [SOV.GetNameDef] e seus aliados ocidentais.\n\nTemendo um colapso irrevogável nas comunicações, somada a ambições contrárias na Europa – como evidenciado em acontecimentos recentes na Alemanha Oriental – [FROM.GetNameDef] propôs um tratado de assistência mútua durante uma conferência às pressas em Bruxelas."
+ treaty_org.1.desc: "Com a contenção da ameaça global iminente, iniciou-se a deterioração de acordos frágeis entre [SOV.GetNameDef] e seus aliados ocidentais.\n\nTemendo um colapso irrevogável nas comunicações, somado a ambições contrárias na Europa – como evidenciado em acontecimentos recentes na Alemanha Oriental – [FROM.GetNameDef] propôs um tratado de assistência mútua durante uma conferência às pressas em Bruxelas."
  treaty_org.1.a: "A ameaça oriental deve ser contida."
  treaty_org.1.b: "Não precisamos de outra guerra..."
  join_brussels_treaty_tt: "Assinaremos o Tratado de Bruxelas"

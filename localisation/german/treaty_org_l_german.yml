@@ -1,6 +1,6 @@
 ﻿l_german:
  treaty_org.1.t: "Der Brüsseler Pakt"
- treaty_org.1.desc: "Da die unmittelbare globale Bedrohung beseitigt wurde, haben sich die dürftigen Vereinbarungen zwischen der [SOV.GetName] und ihren westlichen Verbündeten zu verschlechtern begonnen.\n\nAus Furcht vor [SOV.GetAdjective]en Aggressionen in Verbindung mit gegensätzlichen Ambitionen in Europa - wie die jüngsten Entwicklungen in Ostdeutschland gezeigt haben - hat [FROM.GetNameDef] auf einer eilig einberufenen Konferenz in Brüssel einen Vertrag über eine wechselseitige Unterstützung vorgeschlagen."
+ treaty_org.1.desc: "Da die unmittelbare globale Bedrohung beseitigt wurde, haben sich die dürftigen Vereinbarungen zwischen der [SOV.GetName] und ihren westlichen Verbündeten zu verschlechtern begonnen.\n\nAus Furcht vor [SOV.GetAdjective]en Aggressionen in Verbindung mit gegensätzlichen Ambitionen in Europa - wie die jüngsten Entwicklungen in Ostdeutschland zeigten - hat [FROM.GetNameDef] auf einer eilig einberufenen Konferenz in Brüssel einen Vertrag über eine wechselseitige Unterstützung vorgeschlagen."
  treaty_org.1.a: "Der Bedrohung aus dem Osten muss Einhalt gewährt werden."
  treaty_org.1.b: "Wir brauchen nicht noch einen Krieg ..."
  join_brussels_treaty_tt: "Wir unterzeichnen den Brüsseler Pakt"

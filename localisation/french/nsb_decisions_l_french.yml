@@ -29,6 +29,8 @@
  LIT_promote_falange_militancy_desc: "Le parti fasciste [POL.GetFascistParty] est réputé pour ses manifestations tapageuses, sinon violentes. De nombreux fascistes craignent cette ferveur chez leurs militants, mais nous savons, quant à nous, qu'il ne s'agit là que de l'extériorisation d'un vif patriotisme qui ne demande qu'à être soutenu."
  LIT_ignite_civil_war_in_POL: "Lancer le soulèvement"
  LIT_ignite_civil_war_in_POL_desc: "Tout est prêt. [POL.GetLeLaLNPCap] [POL.GetName] ser[POL.GetAOntNP] d'ici peu un véritable champ de bataille, non seulement idéologique mais aussi militaire. Nous avons fait tout notre possible pour soutenir les phalangistes. L'heure est venue de jeter les dés, en espérant que Dieu est bien de notre côté."
+ LIT_adopt_the_dobuzhinsky_flag_design_decision: "Adopter le drapeau héraldique de Doboujinski"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision_desc: "Les couleurs de notre drapeau doivent refléter celles des armoiries de notre peuple. Sachant que le vert n'y figure pas, il n'y a aucune raison que notre drapeau en contienne. La proposition de Mstislav Doboujinski et Vydūnas est parfaitement sensée."
  march_through_estonia: "Marches [EST.GetAuEnANP] [EST.GetName]"
  march_through_estonia_desc: "Le gouvernement faible de Konstantin Päts a trop longtemps imposé le silence aux patriotes. Nous ne disposons pas d'effectifs suffisants pour combattre seuls les forces armées, mais peut-être qu'en manifestant notre frustration contre la dictature par une série de marches dans tout le pays nous pourrons rappeler à la jeunesse que leurs pères ont combattu pour leur assurer une vie heureuse, dont Päts et sa cabale veulent les priver aujourd'hui."
  EST_stomp_the_vaps: "Répression imminente du gouvernement"

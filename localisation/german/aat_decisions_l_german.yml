@@ -430,6 +430,8 @@
  DEN_demand_fascist_ban: "Verbot des Faschismus fordern"
  DEN_demand_weapon_deliveries: "Waffenlieferungen erbitten"
  DEN_demand_troops: "Dänische Truppen anfordern"
+ DEN_overlord_requests_the_return_of_the_faroes: "$DEN_request_the_return_of_the_faroes$"
+ DEN_overlord_requests_greenland_back: "$DEN_request_greenland_back$"
  #DECISIONS
  DEN_trade_deal_category: "Dänische Handelsabkommen"
  DEN_increase_trade_with_denmark: "Handel mit [DEN.GetName] erhöhen"

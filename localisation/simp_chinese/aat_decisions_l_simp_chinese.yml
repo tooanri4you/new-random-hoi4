@@ -430,6 +430,8 @@
  DEN_demand_fascist_ban: "要求查禁法西斯主义"
  DEN_demand_weapon_deliveries: "请求输送武器"
  DEN_demand_troops: "请求丹麦部队"
+ DEN_overlord_requests_the_return_of_the_faroes: "$DEN_request_the_return_of_the_faroes$"
+ DEN_overlord_requests_greenland_back: "$DEN_request_greenland_back$"
  #DECISIONS
  DEN_trade_deal_category: "丹麦贸易协议"
  DEN_increase_trade_with_denmark: "提高对[DEN.GetName]贸易"

@@ -430,6 +430,8 @@
  DEN_demand_fascist_ban: "Żądanie delegalizacji faszyzmu"
  DEN_demand_weapon_deliveries: "Zwrócenie się o dostawy broni"
  DEN_demand_troops: "Zwrócenie się o przysłanie wojsk duńskich"
+ DEN_overlord_requests_the_return_of_the_faroes: "$DEN_request_the_return_of_the_faroes$"
+ DEN_overlord_requests_greenland_back: "$DEN_request_greenland_back$"
  #DECISIONS
  DEN_trade_deal_category: "Duńskie umowy handlowe"
  DEN_increase_trade_with_denmark: "[DEN.GetName]: zwiększenie wymiany handlowej"

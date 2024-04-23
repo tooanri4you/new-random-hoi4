@@ -41,6 +41,7 @@
  naval_effort_desc: "Der Ausbau unserer Marine sollte unsere oberste Priorität sein. Weisen Sie alle verfügbaren Ressourcen neuen Werften zu und erforschen Sie leichte Oberflächenschiffe."
  GER_naval_effort2: "Schiffswerften ausbauen"
  GER_naval_effort2_desc: "Um eine wirklich respektable Flotte wieder aufzubauen, müssen wir die Kapazität unserer Werften deutlich ausbauen."
+ GER_naval_effort2_tt: "Errichtet §Y2 Schiffswerften§! in §Y2§! Küstenstaaten, die sich derzeit im Besitz von §Y[ROOT.GetFlag][ROOT.GetName]§! befinden"
  flexible_navy: "Flexible Marine"
  flexible_navy_desc: "Wenn wir die Marinekriegsführung neu erfinden, um den Fortschritten in der U-Boot-Technologie Rechnung zu tragen, können wir feindliche Konvois effizient angreifen."
  large_navy: "Große Marine"

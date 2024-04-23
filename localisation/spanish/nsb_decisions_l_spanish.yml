@@ -29,6 +29,8 @@
  LIT_promote_falange_militancy_desc: "El [POL.GetFascistParty] tiene mala reputación por sus métodos de manifestación tumultuosos y violentos. Muchos fascistas temen el fervor nacionalista del [POL.GetFascistParty], pero sabemos que solo es una mera expresión del patriotismo que arde en sus corazones y que debemos apoyar."
  LIT_ignite_civil_war_in_POL: "Comenzar la insurrección"
  LIT_ignite_civil_war_in_POL_desc: "Los preparativos están listos. Polonia será pronto un campo de batalla no solo de las ideas, sino también de la valentía y la gloria. Hemos hecho todo lo que podíamos para apoyar a los falangistas en Polonia, ahora solo tenemos que lanzar los dados y esperar que Dios esté de nuestro lado."
+ LIT_adopt_the_dobuzhinsky_flag_design_decision: "Adoptar el diseño de bandera heránldica de Dobuzhinski"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision_desc: "Los colores de nuestra bandera deben ser los mismos que los del escudo de armas. El escudo de armas no tiene ni un rastro de verde, por lo que la bandera tampoco ha de tenerlo. Debemos adoptar la propuesta que nos han entregado Mstislav Dobuzhinsky y Vydūnas."
  march_through_estonia: "La marcha por Estonia"
  march_through_estonia_desc: "El débil gobierno de Konstantin Päts ha silenciado las voces de los patriotas estonios durante mucho tiempo. Carecemos de la fuerza necesaria para luchar contra el ejército estonio solos, pero quizás si mostramos nuestra frustración con la dictadura en una serie de marchas a través del país les recordemos a los jóvenes estonios que sus padres lucharon para que tuvieran una buena vida, y que Päts y su camarilla se la están negando."
  EST_stomp_the_vaps: "Represión del gobierno inminente"

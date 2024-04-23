@@ -1,6 +1,6 @@
 ﻿l_french:
  treaty_org.1.t: "Le traité de Bruxelles"
- treaty_org.1.desc: "$NATO_brussels_treaty_desc$\n\nCraignant que les liens soient rompus de manière définitive, et voyant bien des ambitions opposées émerger en Europe – comme l'ont montré les derniers événements en Allemagne de l'Est – [From.GetLeLaLNP] [From.GetName] [From.GetAOntNP] donc proposé de ratifier un traité d'assistance mutuelle au cours d'une conférence convoquée en urgence à Bruxelles."
+ treaty_org.1.desc: "Craignant que les liens soient rompus de manière définitive, et voyant bien des ambitions opposées émerger en Europe – comme l'ont montré les derniers événements en Allemagne de l'Est – [FROM.GetLeLaLNP] [FROM.GetName] [FROM.GetAOntNP] donc proposé de ratifier un traité d'assistance mutuelle au cours d'une conférence convoquée en urgence à Bruxelles.\n\n"
  treaty_org.1.a: "La menace à l'est doit\nà tout prix être contenue"
  treaty_org.1.b: "[Root.GetLeLaLNPCap] [Root.GetName] ne veu[Root.GetTLentNP] pas\nêtre entraîné[Root.GetXENP] dans une nouvelle guerre..."
  join_brussels_treaty_tt: "[Root.GetLeLaLNPCap] [Root.GetFlag]§Y[Root.GetName]§! v[Root.GetAOntNP] ratifier le traité de Bruxelles."

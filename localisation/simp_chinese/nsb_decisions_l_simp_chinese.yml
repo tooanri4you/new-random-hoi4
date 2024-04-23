@@ -29,6 +29,8 @@
  LIT_promote_falange_militancy_desc: "[POL.GetFascistParty]因其狂暴而猛烈的示威方式而臭名昭著。许多法西斯主义者畏惧[POL.GetFascistParty]的民族主义狂热，但我们知道这只不过是他们心中燃烧着的，必须被支持的爱国精神的表现。"
  LIT_ignite_civil_war_in_POL: "发动起义"
  LIT_ignite_civil_war_in_POL_desc: "准备行动已经完成。波兰不久将成为不仅是意识形态的，更是英勇与荣耀的战场。我们已经做了所有能做的来支持波兰的长枪党人，我们现在只要掷下骰子然后希望上帝站在他们那边。"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision: "采用多布任斯基的纹章旗设计"
+ LIT_adopt_the_dobuzhinsky_flag_design_decision_desc: "我们旗帜的颜色必须与国徽的颜色相匹配。国徽中没有绿色，因此国旗上也不应该出现绿色。因此，我们应该采纳姆斯蒂斯拉夫·多布任斯基和维杜纳斯的提案。"
  march_through_estonia: "穿越爱沙尼亚的游行"
  march_through_estonia_desc: "康斯坦丁·佩茨的软弱政府已经封锁爱沙尼亚爱国者的呼声太久了。我们缺少独自与爱沙尼亚军队战斗的人力，但或许在遍布全国的一系列游行中申明我们对独裁统治的担忧后，我们或能让爱沙尼亚的年轻人明白，他们的父辈为他们而战换来的美好生活，正在被帕斯和他的阴谋集团所否认。"
  EST_stomp_the_vaps: "即将到来的政府镇压"
