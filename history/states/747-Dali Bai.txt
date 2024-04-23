@@ -9,7 +9,6 @@ state={
 	state_category = pastoral
 	history={
 		owner = YUN
-		add_core_of = YUN
 		add_core_of = CHI
 		victory_points = {
 			7965 3 
