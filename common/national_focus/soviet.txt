@@ -18373,7 +18373,17 @@ ai_will_do = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = CHI
+						OR = {
+							is_core_of = SIK
+							is_core_of = XSM
+							is_core_of = SHX
+							is_core_of = PRC
+							is_core_of = CHI
+							is_core_of = YUN
+							is_core_of = GXC
+							is_core_of = MEN
+							is_core_of = MAN
+						}
 					}
 					add_claim_by = ROOT
 				}

@@ -2887,6 +2887,53 @@ SOV_approach_sinkiang_diplomacy_effect = {
 		id = SIK		
 		value = 15
 	}
+	SIK = {
+		add_ai_strategy = {
+			type = befriend
+			id = SOV			
+			value = 10
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = CHI		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = PRC		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = XSM		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = SHX		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = YUN		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = GXC		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = MEN		
+			value = -5
+		}
+		add_ai_strategy = {
+			type = alliance
+			id = MAN		
+			value = -5
+		}
+	}
 }
 
 SOV_set_appropriate_national_academy_of_sciences_flag_effect = {
