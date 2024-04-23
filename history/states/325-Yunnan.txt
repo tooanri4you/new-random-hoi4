@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = YUN
+		owner = CHI
 		add_core_of = CHI
 		victory_points = {
 			1319 10 
