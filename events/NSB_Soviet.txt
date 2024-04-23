@@ -5924,7 +5924,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 2
-			has_full_control_of_state = 594 #NANNING (GXC)
+			has_full_control_of_state = 594 #NANNING
 		}
 		modifier = {
 			factor = 2
@@ -6033,61 +6033,6 @@ country_event = {
 				add_ai_strategy = {
 					type = alliance
 					id = CHI		
-					value = 100
-				}
-			}
-			if = {
-				limit = {
-					PRC = { is_faction_leader = yes }
-					NOT = { has_war_with = PRC }	
-				}
-				add_ai_strategy = {
-					type = alliance
-					id = PRC		
-					value = 100
-				}
-			}
-			if = {
-				limit = {
-					XSM = { is_faction_leader = yes }
-					NOT = { has_war_with = XSM }	
-				}
-				add_ai_strategy = {
-					type = alliance
-					id = XSM		
-					value = 100
-				}
-			}
-			if = {
-				limit = {
-					SHX = { is_faction_leader = yes }
-					NOT = { has_war_with = SHX }	
-				}
-				add_ai_strategy = {
-					type = alliance
-					id = SHX		
-					value = 100
-				}
-			}
-			if = {
-				limit = {
-					YUN = { is_faction_leader = yes }
-					NOT = { has_war_with = YUN }	
-				}
-				add_ai_strategy = {
-					type = alliance
-					id = YUN		
-					value = 100
-				}
-			}
-			if = {
-				limit = {
-					GXC = { is_faction_leader = yes }
-					NOT = { has_war_with = GXC }	
-				}
-				add_ai_strategy = {
-					type = alliance
-					id = GXC		
 					value = 100
 				}
 			}
