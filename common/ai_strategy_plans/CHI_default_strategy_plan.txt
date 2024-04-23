@@ -620,6 +620,11 @@ CHI_european_allies = { #used to make minor European nations like Axis more
 	}
 	ai_strategy = {
 		type = alliance
+		id = "GXC"
+		value = -500
+	}
+	ai_strategy = {
+		type = alliance
 		id = "YUN"
 		value = -500
 	}

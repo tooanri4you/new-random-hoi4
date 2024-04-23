@@ -17497,7 +17497,7 @@ political_actions = {
 			}
 		}
 
-		targets = { CHI }
+		targets = { CHI PRC GXC YUN SHX XSM SIK }
 		targets_dynamic = yes
 
 		target_trigger = {
@@ -17543,7 +17543,7 @@ political_actions = {
 			FROM = { has_country_flag = WTT_support_from_soviet }
 		}
 
-		targets = { CHI }
+		targets = { CHI PRC GXC YUN SHX XSM SIK }
 		targets_dynamic = yes
 
 		target_trigger = {

@@ -22,6 +22,14 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
+				OR = {
+					has_war_with = PRC
+					has_war_with = YUN
+					has_war_with = SIK
+					has_war_with = XSM
+					has_war_with = GXC
+					has_war_with = CHI
+				}
 			}
 		}
 		FROM = {
