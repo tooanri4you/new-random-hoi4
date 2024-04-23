@@ -708,6 +708,7 @@
 						building = air_base
 						size > 1
 					}
+					NOT = { state = 674 }
 				}
 				add_building_construction = {
 					type = air_base
@@ -842,6 +843,7 @@
 						building = air_base
 						size > 1
 					}
+					NOT = { state = 674 }
 				}
 				add_building_construction = {
 					type = air_base
@@ -1015,6 +1017,9 @@
 							building = radar_station
 							size > 0
 						}
+						NOT = {
+							state = 674
+						}
 					}
 					add_building_construction = {
 						type = radar_station
@@ -1032,6 +1037,9 @@
 						free_building_slots = {
 							building = radar_station
 							size > 0
+						}
+						NOT = {
+							state = 674
 						}
 					}
 					add_building_construction = {
@@ -1052,6 +1060,9 @@
 							building = radar_station
 							size > 0
 						}
+						NOT = {
+							state = 674
+						}
 					}
 					add_building_construction = {
 						type = radar_station
@@ -1069,6 +1080,9 @@
 							prioritize = { 521 872 }
 							limit = {
 								is_in_home_area = yes
+								NOT = {
+									state = 674
+								}
 							}
 							add_building_construction = {
 								type = radar_station
@@ -1082,6 +1096,9 @@
 							limit = {
 								NOT = { has_state_flag = AST_volunteer_air_observers_corps_radar1 }
 								is_in_home_area = yes
+								NOT = {
+									state = 674
+								}
 							}
 							add_building_construction = {
 								type = radar_station
@@ -1097,6 +1114,9 @@
 							free_building_slots = {
 								building = radar_station
 								size > 0
+							}
+							NOT = {
+								state = 674
 							}
 						}
 						add_building_construction = {
@@ -1115,6 +1135,9 @@
 							free_building_slots = {
 								building = radar_station
 								size > 0
+							}
+							NOT = {
+								state = 674
 							}
 						}
 						add_building_construction = {
@@ -3884,6 +3907,7 @@
 				OR = {
 					NOT = { is_puppet_of = HOL }
 					exists = no
+					has_capitulated = yes
 				}
 			}
 		}
@@ -4194,7 +4218,12 @@
 		}
 		
 		bypass = {
-
+			INS = {
+				OR = {
+					has_government = fascism
+					is_subject = no
+				}
+			}
 		}
 
 		cancel_if_invalid = no
@@ -4208,7 +4237,12 @@
 			}
 			hidden_effect = {
 				INS = { country_event = { id = tfv_australia.95 } }
-				HOL = { country_event = { id = tfv_australia.95 } }
+				every_country = {
+					limit = {
+						has_subject = INS
+					}
+					country_event = { id = tfv_australia.95 } 
+				}
 			}
 		}
 	}
@@ -4234,14 +4268,7 @@
 				is_subject = no
 				AND = {
 					compare_autonomy_progress_ratio > 0.75
-					if = {
-						limit = { not = { has_government = fascism } }
-						has_autonomy_state = autonomy_dominion
-					}
-					if = {
-						limit = { has_government = fascism } 
-						has_autonomy_state = autonomy_satellite
-					}
+					has_autonomy_state = autonomy_dominion
 				}
 			}
 			fascism > 0.3
@@ -4252,6 +4279,12 @@
 		}
 		
 		bypass = {
+			INS = {
+				OR = {
+					has_government = fascism
+					is_subject = no
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -4334,16 +4367,12 @@
 		}
 
 		available = {
-			if = {
-				limit = { not = { has_government = fascism } }
-				has_autonomy_state = autonomy_dominion
-			}
-			if = {
-				limit = { has_government = fascism } 
-				has_autonomy_state = autonomy_satellite
-			}
+			has_autonomy_state = autonomy_dominion
 			MAL = {
 				is_puppet_of = ENG
+			}
+			336 = {
+				is_fully_controlled_by = MAL
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
@@ -4379,21 +4408,14 @@
 			modifier = {
 				JAP = { has_capitulated = yes }
 				factor = 0
-				}
+			}
 		}
 
 		available = {
 			OR = {
 				is_subject = no
 				AND = {
-					if = {
-						limit = { not = { has_government = fascism } }
-						has_autonomy_state = autonomy_dominion
-					}
-					if = {
-						limit = { has_government = fascism } 
-						has_autonomy_state = autonomy_satellite
-					}
+					has_autonomy_state = autonomy_dominion
 					compare_autonomy_progress_ratio > 0.8
 				}
 			}
@@ -4464,14 +4486,7 @@
 			OR = {
 				is_subject = no
 				AND = {
-					if = {
-						limit = { not = { has_government = fascism } }
-						has_autonomy_state = autonomy_dominion
-					}
-					if = {
-						limit = { has_government = fascism } 
-						has_autonomy_state = autonomy_satellite
-					}
+					has_autonomy_state = autonomy_dominion
 					compare_autonomy_progress_ratio > 0.8
 				}
 			}
@@ -4549,6 +4564,7 @@
 		}
 
 		available = {
+			is_subject = no
 			NOT = { is_in_faction_with = JAP }
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}

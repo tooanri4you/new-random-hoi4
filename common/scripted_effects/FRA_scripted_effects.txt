@@ -139,8 +139,16 @@ FRA_congress_of_paris_italian_claims_setup_effect = {
 	add_state_claim = 549
 	add_state_claim = 269
 	add_state_claim = 547
+	add_state_claim = 904
+	add_state_claim = 905
+	add_state_claim = 903
 	add_state_claim = 548
 	add_state_claim = 546
+	add_state_claim = 887
+	add_state_claim = 885
+	add_state_claim = 884
+	add_state_claim = 886
+	add_state_claim = 883
 }
 
 FRA_congress_of_paris_portugese_claims_setup_effect = {
@@ -150,6 +158,9 @@ FRA_congress_of_paris_portugese_claims_setup_effect = {
 	add_state_claim = 545
 	add_state_claim = 542
 	add_state_claim = 541
+	add_state_claim = 893
+	add_state_claim = 894
+	add_state_claim = 895
 	add_state_claim = 681
 	add_state_claim = 275
 	add_state_claim = 719

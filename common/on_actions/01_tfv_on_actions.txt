@@ -10,18 +10,16 @@ on_actions = {
 					FROM = {
 						original_tag = INS
 						has_government = fascism
-						controls_state = 334
-						controls_state = 673
-						controls_state = 669
-						controls_state = 668
-						controls_state = 738
-						controls_state = 667
-						controls_state = 672
-						controls_state = 335
+					}
+					AST = {
+						has_completed_focus = AST_support_indonesian_uprising
 					}
 				}
 				AST = {
-					country_event = { id = tfv_australia.41 }
+					country_event = { 
+						id = tfv_australia.41 
+						hours = 12
+					}
 				}
 			}
 			if = {

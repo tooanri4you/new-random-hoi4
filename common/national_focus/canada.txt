@@ -3145,49 +3145,75 @@ focus_tree = {
 		}
 
 		available = {
-			OR = {
-				any_country = {
+			#OR = {
+			#	any_country = {
+			#		OR = {
+			#			has_subject = ROOT
+			#			original_tag = ENG
+			#		}
+			#		has_opinion = {
+			#			target = ROOT
+			#			value > 50
+			#		}	
+			#		owns_state = 332
+			#		owns_state = 331
+			#	}
+			#	AND = {
+			#		any_country = {
+			#			OR = {
+			#				has_subject = ROOT
+			#				original_tag = ENG
+			#			}
+			#			has_opinion = {
+			#				target = ROOT
+			#				value > 50
+			#			}	
+			#			OR = {
+			#				owns_state = 332
+			#				owns_state = 331
+			#			}
+			#		}
+			#		any_country = {
+			#			NOT = {
+			#				original_tag = ENG
+			#			}
+			#			AND = {
+			#				is_in_faction_with = ROOT
+			#				original_tag = USA
+			#			}
+			#			has_opinion = {
+			#				target = ROOT
+			#				value > 50
+			#			}	
+			#			OR = {
+			#				owns_state = 332
+			#				owns_state = 331
+			#			}
+			#		}
+			#	}
+			#}
+			331 = {
+				owner = {
+					has_opinion = { target = ROOT value > 50 }
 					OR = {
 						has_subject = ROOT
 						original_tag = ENG
-					}
-					has_opinion = {
-						target = ROOT
-						value > 50
-					}	
-					owns_state = 332
-					owns_state = 331
-				}
-				AND = {
-					any_country = {
-						OR = {
-							has_subject = ROOT
-							original_tag = ENG
-						}
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}	
-						OR = {
-							owns_state = 332
-							owns_state = 331
-						}
-					}
-					any_country = {
-						NOT = {
-							original_tag = ENG
-						}
 						AND = {
-							is_in_faction_with = ROOT
 							original_tag = USA
+							is_in_faction_with = ROOT
 						}
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}	
-						OR = {
-							owns_state = 332
-							owns_state = 331
+					}
+				}
+			}
+			332 = {
+				owner = {
+					has_opinion = { target = ROOT value > 50 }
+					OR = {
+						has_subject = ROOT
+						original_tag = ENG
+						AND = {
+							original_tag = USA
+							is_in_faction_with = ROOT
 						}
 					}
 				}

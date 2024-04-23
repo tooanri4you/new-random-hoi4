@@ -440,7 +440,7 @@ guianas_category = {
 				488 = { add_core_of = ROOT }
 			}
 
-			# Rio Branco - Amapa
+			# Amapa
 			IF =  {
 				limit = {
 					NOT = {
@@ -450,6 +450,32 @@ guianas_category = {
 					}
 				}
 				939 = { add_core_of = ROOT }
+			}
+
+			# Rio Branco
+			IF =  {
+				limit = {
+					NOT = {
+						969 = {
+							is_core_of = ROOT
+						}
+					}
+				}
+				969 = { add_core_of = ROOT }
+			}
+
+			hidden_effect = {
+				# Guianan Rainforest
+				IF =  {
+					limit = {
+						NOT = {
+							968 = {
+								is_core_of = ROOT
+							}
+						}
+					}
+					968 = { add_core_of = ROOT }
+				}
 			}
 
 			hidden_effect = {

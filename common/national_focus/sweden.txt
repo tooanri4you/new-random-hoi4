@@ -9836,10 +9836,8 @@ focus_tree = {
 						state = 234
 						state = 217 #Stalingrad
 					}
-					NOT = { state = 705 } #Crimea
-
+					NOT = { state = 137 } #Crimea
 				} 
-
 				add_claim_by = ROOT
 			}
 		}

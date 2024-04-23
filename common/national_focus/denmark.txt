@@ -3912,6 +3912,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = NOR
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -3925,13 +3927,13 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				create_wargoal = {
-					target = NOR 
-					type = annex_everything 
-				}
 				add_timed_idea = {
 					idea = DEN_securing_norway_ns
 					days = 365
+				}
+				declare_war_on = {
+				    target = NOR
+				    type = annex_everything
 				}
 			}
 			else = {
@@ -3955,7 +3957,7 @@ focus_tree = {
 						}
 					}
 					ROOT = {
-						create_wargoal = {
+						declare_war_on = {
 							type = take_state_focus
 							target = PREV
 							generator = PREV.DEN_norwegian_target_states_array
@@ -3993,6 +3995,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = ICE
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -4014,10 +4018,10 @@ focus_tree = {
 				100 = {
 					CONTROLLER = {
 						ROOT = {
-							create_wargoal = {
-								type = take_state_focus
-								target = PREV
-								generator = { 100 }
+							declare_war_on = {
+							    target = PREV
+							    type = take_state_focus
+							    generator = { 100 }
 							}
 						}
 					}
@@ -4030,9 +4034,9 @@ focus_tree = {
 							}
 						}
 					}
-					create_wargoal = {
-						target = ICE 
-						type = annex_everything 
+					declare_war_on = {
+					    target = ICE
+					    type = annex_everything
 					}
 				}
 			}
@@ -4048,10 +4052,10 @@ focus_tree = {
 				101 = {
 					CONTROLLER = {
 						ROOT = {
-							create_wargoal = {
-								type = take_state_focus
-								target = PREV
-								generator = { 101 }
+							declare_war_on = {
+							    target = PREV
+							    type = take_state_focus
+							    generator = { 101 }
 							}
 						}
 					}
@@ -4069,10 +4073,10 @@ focus_tree = {
 				337 = {
 					CONTROLLER = {
 						ROOT = {
-							create_wargoal = {
-								type = take_state_focus
-								target = PREV
-								generator = { 337 }
+							declare_war_on = {
+							    target = PREV
+							    type = take_state_focus
+							    generator = { 337 }
 							}
 						}
 					}
@@ -4106,6 +4110,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = SWE
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -4118,13 +4124,13 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				create_wargoal = {
-					target = SWE 
-					type = annex_everything 
-				}
 				add_timed_idea = {
 					idea = DEN_securing_sweden_ns
 					days = 365
+				}
+				declare_war_on = {
+				    target = SWE
+				    type = annex_everything
 				}
 			}
 			else = {
@@ -4148,7 +4154,7 @@ focus_tree = {
 						}
 					}
 					ROOT = {
-						create_wargoal = {
+						declare_war_on = {
 							type = take_state_focus
 							target = PREV
 							generator = PREV.DEN_swedish_target_states_array
@@ -4186,6 +4192,8 @@ focus_tree = {
 		}
 	
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		will_lead_to_war_with = FIN
 	
 		completion_reward = {
 			add_autonomy_score = { 
@@ -4198,13 +4206,13 @@ focus_tree = {
 						exists = yes
 					}
 				}
-				create_wargoal = {
-					target = FIN 
-					type = annex_everything 
-				}
 				add_timed_idea = {
 					idea = DEN_securing_finland_ns
 					days = 365
+				}
+				declare_war_on = {
+				    target = FIN
+				    type = annex_everything
 				}
 			}
 			else = {
@@ -4228,7 +4236,7 @@ focus_tree = {
 						}
 					}
 					ROOT = {
-						create_wargoal = {
+						declare_war_on = {
 							type = take_state_focus
 							target = PREV
 							generator = PREV.DEN_finnish_target_states_array
@@ -7382,6 +7390,8 @@ focus_tree = {
 			}
 		}
 
+		cancel_if_invalid = no
+
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_BALANCE_OF_POWER FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
@@ -7464,7 +7474,7 @@ focus_tree = {
 					}
 				}
 				ICE = {
-					OVERLORD = { country_event = { id = denmark_expansion_event.5 days = 1 }}
+					OVERLORD = { country_event = { id = denmark_expansion_event.4 days = 1 }}
 				}
 				custom_effect_tooltip = if_they_accept_tt
 				event_option_tooltip = denmark_expansion_event.5.a
@@ -7645,7 +7655,7 @@ focus_tree = {
 		cancel = {
 			is_subject = yes
 		}
-		cancel_if_invalid = no #Don't cancel if World Tension goes below 20% or if you lose puppet
+		continue_if_invalid = yes #Don't cancel if World Tension goes below 20% or if you lose puppet
 
 		bypass = {
 			SWE = {
@@ -7885,7 +7895,7 @@ focus_tree = {
 		cancel = {
 			is_subject = yes
 		}
-		cancel_if_invalid = no #Don't cancel if World Tension goes below a certain % or if you lose puppet
+		continue_if_invalid = yes #Don't cancel if World Tension goes below a certain % or if you lose puppet
 
 		bypass = {
 			NOR = {
@@ -8812,7 +8822,7 @@ focus_tree = {
 			}
 		}
 
-		cancel_if_invalid = no #Don't cancel if World Tension goes below 20% or if you lose WS
+		continue_if_invalid = yes #Don't cancel if World Tension goes below 20% or if you lose WS
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY }
 

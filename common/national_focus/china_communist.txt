@@ -289,7 +289,9 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			NOT = {
+				has_idea = PRC_the_long_march_1
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -324,7 +326,9 @@ focus_tree = {
 		}
 
 		bypass = {
-
+			NOT = {
+				has_idea = PRC_power_struggles
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -1296,7 +1300,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			has_idea = PRC_red_army_weakened
 		}
 
 		bypass = {

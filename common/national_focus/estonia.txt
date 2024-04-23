@@ -2251,6 +2251,36 @@ focus_tree = {
 		}
 
 		bypass = {
+			OR = {
+				AND = {
+					SWE = {
+						is_subject_of = ROOT
+					}
+					NOR = {
+						is_subject_of = ROOT
+					}
+				}
+				all_state = {
+					OR = {
+						state = 148
+						state = 722
+						state = 213
+						state = 925
+						state = 924
+						state = 144
+						state = 923
+						state = 143
+						state = 666
+						state = 918
+						state = 917
+					}
+					is_owned_by = ROOT
+				}
+				SMI = {
+					is_subject_of = ROOT
+				}
+			}
+			
 		}
 
 		cancel_if_invalid = yes
@@ -2261,12 +2291,12 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
 				type = take_state_focus
-				generator = { 143 144 }
+				generator = { 143 144 923 924 925 }
 				target = NOR
 			}
 			create_wargoal = {
 				type = take_state_focus
-				generator = { 666 38 }
+				generator = { 666 917 918 }
 				target = SWE
 			}
 		}
@@ -2301,10 +2331,42 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				generator = { 213 215 216 }
-				target = SOV
+			every_state = {
+				limit = {
+					OR = {
+						state = 147
+						state = 216
+						state = 215
+						state = 146
+					}
+					NOT = {
+						OR = {
+							is_owned_by = ROOT
+							is_claimed_by = ROOT
+						}
+					}
+				}
+				add_claim_by = ROOT
+			}
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
+			every_other_country = {
+				limit = {
+					OR = {
+						owns_state = 147
+						owns_state = 216
+						owns_state = 215
+						owns_state = 146
+					}
+				}
+				ROOT = {
+					create_wargoal = {
+						type = take_claimed_state
+						#generator = { 213 215 216 }
+						target = PREV
+					}
+				}
 			}
 		}
 	}
