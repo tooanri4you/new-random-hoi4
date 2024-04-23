@@ -1145,7 +1145,7 @@ country_event = {
 	title = BBA_ethiopia_exile_events.03.t
 	desc = BBA_ethiopia_exile_events.03.desc
 	is_triggered_only = yes
-	# picture = GFX_report_event_spr_anarchists2 #TODO_TA set correct image
+	picture = GFX_report_event_ETH_ethiopian_warriors
 
 	option = {
 		name = BBA_ethiopia_exile_events.03.a

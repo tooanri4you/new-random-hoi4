@@ -1549,7 +1549,7 @@ if = {
 			has_dlc = "No Step Back"
 		}
 		create_equipment_variant = {
-			name = "Mathilda I"
+			name = "Matilda I"
 			type = light_tank_chassis_2
 			parent_version = 0
 			modules = {
@@ -1568,7 +1568,7 @@ if = {
 		}
 
 		create_equipment_variant = {
-			name = "Mathilda II"
+			name = "Matilda II"
 			type = heavy_tank_chassis_1
 			parent_version = 0
 			modules = {

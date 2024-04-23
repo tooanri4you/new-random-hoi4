@@ -4580,22 +4580,34 @@ country_event = {
 		                set_nationality = PREV.PREV
 		                # Transfers to breakaway
 		            }
-		            CHL_ricardo_aguayo = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
-		            CHL_francisco_encina = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
-		            CHL_tancredo_pinochet = { # Character
-		                set_nationality = PREV.PREV
-		                # Transfers to breakaway
-		            }
 		            CHL_miguel_serrano = { # Character
 		                set_nationality = PREV.PREV
 		                # Transfers to breakaway
 		            }
+	        	}
+
+	        	IF = {
+	        		limit = {
+	        			PREV = {
+	        				NOT = {
+	        					has_completed_focus = CHL_utilize_national_populism
+	        				}
+	        			}
+	        		}
+	        		PREV = {
+	        			CHL_francisco_encina = { # Character
+	        			    set_nationality = PREV.PREV
+	        			    # Transfers to breakaway
+	        			}
+	        			CHL_ricardo_aguayo = { # Character
+	        			    set_nationality = PREV.PREV
+	        			    # Transfers to breakaway
+	        			}
+	        			CHL_tancredo_pinochet = { # Character
+	        			    set_nationality = PREV.PREV
+	        			    # Transfers to breakaway
+	        			}
+	        		}
 	        	}
 
 	        	PREV.PREV = {

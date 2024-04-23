@@ -192,6 +192,7 @@ set_convoys = 40
 		complete_national_focus = CHI_unified_industrial_planning
 		complete_national_focus = CHI_mission_to_germany
 		complete_national_focus = CHI_rural_reconstruction_movement
+		complete_national_focus = CHI_invite_foreign_investors
 		complete_national_focus = CHI_british_cooperation
 		unlock_national_focus = CHI_fighter_purchases
 		complete_national_focus = CHI_mission_to_the_us

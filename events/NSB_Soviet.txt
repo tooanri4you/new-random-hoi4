@@ -2968,8 +2968,10 @@ country_event = {
 
 		trigger = {
 			NOT = {
-				FROM = { original_tag = PER }
-				ROOT = { original_tag = SOV }
+				AND = {
+					FROM = { original_tag = PER }
+					ROOT = { original_tag = SOV }
+				}
 			}
 		}
 
@@ -3481,6 +3483,12 @@ country_event = {
 
 		trigger = {
 			FROM = { is_in_faction = yes }
+
+			IF = {
+				limit = { FROM = { original_tag = ITA } }
+				
+				FROM = { is_faction_leader = yes }
+			}
 		}
 
 		FROM = {
@@ -12303,11 +12311,15 @@ country_event = {
 
 		var:SOV.SOV_nationalist_country = {
 			add_named_threat = { 
-				threat = -1 
+				threat = -1.5
 				name = indepence_war_threat
 			}
 			declare_war_on = {
 				target = ROOT
+				type = independence_wargoal
+			}
+			declare_war_on = {
+				target = SOS
 				type = independence_wargoal
 			}
 		}

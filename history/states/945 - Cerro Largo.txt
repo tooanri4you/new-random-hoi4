@@ -21,6 +21,10 @@ state = {
 			dockyard = 1
 		}
 
+		victory_points = {
+			1641 1
+		}
+
 	}
 
 	provinces = {
