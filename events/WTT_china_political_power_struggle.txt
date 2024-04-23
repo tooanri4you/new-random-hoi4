@@ -417,7 +417,6 @@ country_event = {
 					has_variable = PP_amount_for_support_@FROM
 				}
 			}
-			modifier = { tag = GXC  add = 1 }
 		}
 		add_to_variable = { step_increase_from_opinion_ideology_@FROM = increase_from_amount_times_asked_for_support_by_@FROM }
 		

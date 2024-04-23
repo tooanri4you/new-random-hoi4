@@ -21,31 +21,11 @@ CHI_army_reform = {
 CHI_integrate_the_warlords = {
 
 	allowed = {
-		OR = {
-			tag = CHI
-			tag = PRC
-			tag = GXC
-			tag = YUN
-			tag = SHX
-			tag = XSM
-			tag = SIK
-		}
+		tag = CHI
 	}
 	icon = generic_political_actions
 	visible = {
 		has_completed_focus = CHI_subjugate_the_warlords
-		OR = {
-			any_of_scopes = {
-				array = subjects
-				OR = {
-					tag = GXC
-					tag = YUN
-					tag = SHX
-					tag = XSM
-					tag = SIK
-				}
-			}
-		}
 	}
 }
 
@@ -99,12 +79,6 @@ PRC_provoke_japan = {
 CHI_seek_japanese_support = {
 	icon = jap_pacific_guardian
 	allowed = {
-		OR = {
-			tag = GXC
-			tag = YUN
-			tag = SHX
-			tag = XSM
-		}
 	}
 }
 
@@ -159,16 +133,6 @@ CHI_political_power_struggle = {
 
 		visible = {
 			has_event_target = scope_PRC
-		}
-	}
-	
-	custom_icon = {
-		tag = GXC
-		value = china_struggle_icon_value
-		desc = china_struggle_full_support_breakdown
-
-		visible = {
-			has_event_target = scope_GXC
 		}
 	}
 	

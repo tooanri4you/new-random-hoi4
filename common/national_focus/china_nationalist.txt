@@ -50,7 +50,6 @@
 #
 #		}
 #	}
-	shared_focus = CHI_invite_foreign_investors
 
 	focus = {
 		id = CHI_three_principles_of_the_people
@@ -899,38 +898,10 @@
 
 		available = {
 			NOT = { has_government = communism }
-			any_country = {
-				OR = {
-					tag = YUN
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = XSM
-					tag = TIB
-					tag = PRC
-				}
-				has_government = communism
-			}
 		}
 
 		bypass = {
-			OR = {
-				is_in_faction_with = PRC
-				NOT = { 
-					any_country = {
-						OR = {
-							tag = YUN
-							tag = SIK
-							tag = GXC
-							tag = SHX
-							tag = XSM
-							tag = TIB
-							tag = PRC
-						}
-						has_government = communism
-					}
-				}
-			}
+			NOT = { has_government = communism }
 		}
 
 		cancel_if_invalid = yes
@@ -942,100 +913,6 @@
 		}
 
 		completion_reward = {
-			if = {		
-				limit = {
-					SIK = {
-						has_government = communism
-					}
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = SIK
-					expire = 0
-				}
-			}
-			if = {		
-				limit = {
-					TIB = {
-						has_government = communism
-					}
-				}
-				create_wargoal = {
-					type = annex_everything
-					target = TIB
-					expire = 0
-				}
-			}
-			if = {
-				limit = {
-					PRC = {
-						has_government = communism
-					}
-				}
-				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PRC
-						expire = 0
-					}
-				}
-			}
-			if = {
-				limit = {
-					YUN = {
-						has_government = communism
-					}
-				}
-				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = YUN
-						expire = 0
-					}
-				}
-			}
-			if = {
-				limit = {
-					SHX = {
-						has_government = communism
-					}
-				}
-				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = SHX
-						expire = 0
-					}
-				}
-			}
-			if = {
-				limit = {
-					GXC = {
-						has_government = communism
-					}
-				}
-				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = GXC
-						expire = 0
-					}
-				}
-			}
-			if = {
-				limit = {
-					XSM = {
-						has_government = communism
-					}
-				}
-				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = XSM
-						expire = 0
-					}
-				}
-			}
 		}
 	}
 
@@ -1058,41 +935,6 @@
 		}
 
 		bypass = {
-			GXC = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_war_with = ROOT
-				}
-			}
-			YUN = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_war_with = ROOT
-				}
-			}
-			SHX = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_war_with = ROOT
-				}
-			}
-			XSM = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_war_with = ROOT
-				}
-			}
-			SIK = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					has_war_with = ROOT
-				}
-			}
 		}
 
 		cancel_if_invalid = yes
@@ -1105,19 +947,6 @@
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			every_other_country = {
-				limit = {
-					OR = {
-						tag = GXC
-						tag = YUN
-						tag = SHX
-						tag = XSM
-						tag = SIK
-					}
-				}
-				country_event = { id = wtt_china.1 }
-			}
-			unlock_decision_category_tooltip = CHI_integrate_the_warlords
 		}
 	}
 

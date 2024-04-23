@@ -1376,7 +1376,6 @@ JAP_colonial_independence = {
 				random_other_country = {
 					limit = {
 						OR = {
-							original_tag = GXC
 							original_tag = YUN
 							original_tag = XSM
 							original_tag = SIK

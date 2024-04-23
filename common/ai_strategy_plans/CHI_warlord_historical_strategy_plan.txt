@@ -4,7 +4,6 @@ CHI_warlord_historical_plan_nationalist = {
 
 	allowed = {
 		OR = {
-			original_tag = GXC
 			original_tag = YUN
 			original_tag = XSM
 		}
