@@ -9,7 +9,6 @@ state = {
 
 		owner = ARG
 		add_core_of = ARG
-		add_claim_by = BOL
 
 		buildings = {
 			infrastructure = 1
