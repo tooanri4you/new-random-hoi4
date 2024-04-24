@@ -2464,11 +2464,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_YUG_borivoje_mirkovic"
-		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
-	}
-
-	spriteType = {
 		name = "GFX_idea_YUG_milan_grol"
 		texturefile = "gfx/interface/ideas/idea_YUG_milan_grol.dds"
 	}
