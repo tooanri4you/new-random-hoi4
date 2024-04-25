@@ -7,11 +7,12 @@ state={
 	state_category = large_city
 
 	history={
-		owner = CHI
-		add_core_of = CHI
+		owner = MAN
+		add_core_of = MAN
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 4
+			arms_factory = 1
 			air_base = 3
 			10068 = {
 				naval_base = 2

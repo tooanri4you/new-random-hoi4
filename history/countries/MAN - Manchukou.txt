@@ -6,17 +6,18 @@ set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
 	tech_trucks = 1
+	mass_assault = 1
 }
 
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
-	set_country_flag = MAN_northern_bandits
-	set_country_flag = MAN_eastern_bandits
-	set_country_flag = MAN_western_bandits
-	add_ideas = MAN_banditry
 	add_ideas = MAN_kwantung_veto
 	add_ideas = MAN_low_legitimacy_5
 	recruit_character = MAN_songgotu_zhanshan
+}
+
+add_ideas = {
+	low_economic_mobilisation
 }
 
 recruit_character = MAN_aisin_gioro_puyi
@@ -46,21 +47,9 @@ if = {
 
 set_convoys = 5
 
-328 = { #Kirin
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-715 = { #Liaoning
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-714 = { #Heilungkiang
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-717 = { #Hungkiang
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-761 = { #Hulunbuir
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
+
+
+
 
 1939.1.1 = {
 
@@ -146,6 +135,11 @@ set_politics = {
 set_popularities = {
 	fascism = 80
 	neutrality = 20
+}
+
+set_autonomy = {
+	target = KOR
+	autonomous_state = autonomy_wtt_imperial_protectorate
 }
 
 1939.1.1 = {

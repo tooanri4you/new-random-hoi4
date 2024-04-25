@@ -4,14 +4,14 @@ state=
 	name="STATE_525"
 	manpower = 14284105
 	
-	state_category = town
+	state_category = large_town
 	history=
 	{
-		owner = JAP
+		owner = KOR
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			dockyard = 1
+			industrial_complex = 1
 			4056 = {
 				naval_base = 3
 			}
@@ -20,7 +20,7 @@ state=
 			4056 1 
 		}
 		victory_points = {
-			7125 3 
+			7125 5 
 		}
 
 		add_core_of = KOR
