@@ -1,0 +1,11 @@
+﻿
+
+
+### Air Forces ###
+air_wings = {
+	# Beijing
+	608 = { 
+		small_plane_airframe_0 = { owner = "MAN" amount = 36 creator = "ITA" version_name = "CR.32" }				# 3rd PG - Fiat CR.32
+	}
+}
+

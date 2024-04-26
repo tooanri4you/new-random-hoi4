@@ -1,0 +1,14 @@
+﻿units = {
+	##### ROCN #####
+	fleet = {
+		name = "Di 1 Jiandui"
+		naval_base = 10068 #Beijing
+		task_force = {
+			name = "Di 1 Jiandui"
+			location = 10068 #Beijing
+			ship = { name = "Quing" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = MAN version_name = "Qing Class" } } }
+			ship = { name = "Hebei" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = MAN version_name = "Hebei Class" } } }
+			ship = { name = "Tianjin" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = MAN  version_name = "Hebei Class"} } }
+		}
+	}
+}
