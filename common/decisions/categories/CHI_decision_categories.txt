@@ -1,3 +1,15 @@
+
+CHI_economic_policies = {
+	icon = generic_economy
+
+	allowed = {
+		original_tag = CHI
+	}
+	visible = {
+		always = yes
+	}
+}
+
 CHI_anti_imperialism = {
 	icon = generic_independence
 	allowed = {
@@ -7,6 +19,7 @@ CHI_anti_imperialism = {
 		always = yes
 	}
 }
+
 
 CHI_army_reform = {
 	icon = army_reform
