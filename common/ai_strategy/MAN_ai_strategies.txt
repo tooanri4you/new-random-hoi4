@@ -1,17 +1,154 @@
-MAN_handle_bandits = { # haha manhandle.... hah... hah... lol... I'm tired... STOP LOOKING AT ME LIKE THAT!
-	allowed = {
-		original_tag = MAN
-	}
+MAN_china_is_threatening_we_should_contain_them = {
+	allowed = { original_tag = MAN }
 	enable = {
-		has_idea = MAN_banditry
+		country_exists = CHI
 	}
-	abort = {
-		NOT = {	has_idea = MAN_banditry }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = antagonize
+		id = CHI
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = CHI
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = CHI
+		value = 100
+	}
+}
+
+MAN_protect_korea_at_all_cost = {
+	allowed = { original_tag = MAN }
+	enable = {
+		country_exists = KOR
+		KOR = { is_subject_of = MAN }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = protect
+		id = KOR
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = KOR
+		value = 50
+	}
+}
+
+MAN_we_should_build_up_the_military_fast = {
+	allowed = { original_tag = MAN }
+	enable = {
+		country_exists = CHI
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = 50
 	}
 
 	ai_strategy = {
-		type = save_equipment
-		id = infantry_equipment
-		value = 501
+		type = build_army
+		id = infantry
+		value = 24
+	}
+}
+
+
+MAN_soviets_will_usually_be_chill = {
+	allowed = { original_tag = MAN }
+	enable = {
+		SOV = {
+			NOT = {
+				OR = {
+					is_justifying_wargoal_against = MAN
+					has_annex_war_goal = MAN
+					has_war_with = MAN
+				}
+			}
+		}
+		
+		NOT = {
+			OR = {
+				is_justifying_wargoal_against = SOV
+				has_annex_war_goal = SOV
+				has_war_with = SOV
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = SOV
+		value = 5
+	}
+	ai_strategy = {
+		type = ignore
+		id = SOV
+		value = 100
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = SOV
+		value = 1
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = SOV
+		value = -90
+	}
+}
+
+
+MAN_mongols_will_usually_be_chill = {
+	allowed = { original_tag = MAN }
+	enable = {
+		MON = {
+			NOT = {
+				OR = {
+					is_justifying_wargoal_against = MAN
+					has_annex_war_goal = MAN
+					has_war_with = MAN
+				}
+			}
+		}
+		
+		NOT = {
+			OR = {
+				is_justifying_wargoal_against = MON
+				has_annex_war_goal = MON
+				has_war_with = MON
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = MON
+		value = 5
+	}
+	ai_strategy = {
+		type = ignore
+		id = MON
+		value = 100
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = MON
+		value = 1
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = MON
+		value = -90
 	}
 }
