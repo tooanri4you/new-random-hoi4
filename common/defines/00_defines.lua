@@ -809,13 +809,13 @@ NMilitary = {
 	MAX_DIVISION_SUPPORT_WIDTH = 1,			-- Max width of support in division designer.
 	MAX_DIVISION_SUPPORT_HEIGHT = 5,		-- Max height of support in division designer.
 
-	BASE_DIVISION_BRIGADE_GROUP_COST = 20, 	--Base cost to unlock a regiment slot,
-	BASE_DIVISION_BRIGADE_CHANGE_COST = 5,	--Base cost to change a regiment column.
-	BASE_DIVISION_SUPPORT_SLOT_COST = 10, 	--Base cost to unlock a support slot
+	BASE_DIVISION_BRIGADE_GROUP_COST = 0, 	--Base cost to unlock a regiment slot,
+	BASE_DIVISION_BRIGADE_CHANGE_COST = 1,	--Base cost to change a regiment column.
+	BASE_DIVISION_SUPPORT_SLOT_COST = 1, 	--Base cost to unlock a support slot
 
-	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
-	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
-	MAX_AIR_EXPERIENCE = 500,				--Max air experience a country can store
+	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
+	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store
+	MAX_AIR_EXPERIENCE = 999,				--Max air experience a country can store
 
 	COMBAT_MINIMUM_TIME = 4,			-- Shortest time possible for a combat in hours
 	SPOTTING_QUALITY_DROP_HOURS = 4, 	-- Each X hours the intel quality drops after unit was spotted.
@@ -889,7 +889,7 @@ NMilitary = {
 	TRAINING_EXPERIENCE_SCALE = 62.0,
 	TRAINING_ORG = 0.2,
 	ARMY_EXP_BASE_LEVEL = 1,
-	UNIT_EXP_LEVELS = { 0.1, 0.3, 0.75, 0.9 },		-- Experience needed to progress to the next level
+	UNIT_EXP_LEVELS = { 0.0, 0.3, 0.75, 0.9 },		-- Experience needed to progress to the next level
 	FIELD_EXPERIENCE_SCALE = 0.0015,
 	FIELD_EXPERIENCE_MAX_PER_DAY = 1.2,				-- Most xp you can gain per day
 	EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0.3,		-- reduction factor in Xp from expeditionary forces
@@ -1293,7 +1293,7 @@ NAir = {
 	EFFICIENCY_REGION_CHANGE_DAILY_GAIN_MARITIME_PATROL_PLANE = 1,
 
 	AIR_WING_XP_MAX = 1000.0, 											--Per plane XP.
-	AIR_WING_XP_LEVELS = { 100, 300, 700, 900 }, 						--Experience needed to progress to the next level
+	AIR_WING_XP_LEVELS = { 0, 300, 700, 900 }, 						--Experience needed to progress to the next level
 	AIR_WING_XP_LOSS_WHEN_KILLED = 300,									--if a plane dies, the game assumes that a pilot with this amount of xp died and recalcs average.
 	AIR_WING_XP_TRAINING_MAX = 300.0, 									--Max average XP achieved with training.
 
