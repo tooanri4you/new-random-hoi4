@@ -70,6 +70,31 @@ units= {
 			ship = { name = "RSmg Enrico Toti" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
 			ship = { name = "RSmg Domenico Millelire" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Mameli Class" } } } 
 		} 
+		task_force = { 
+			name = "Squadra di Mar Rosso" 
+			location = 11837 # Massawa, Eritrea
+			# III Squadriglia Cacciatorpediniere
+			ship = { name = "RCT Francesco Nullo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
+			ship = { name = "RCT Nazario Sauro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
+			ship = { name = "RCT Cesare Battisti" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
+			ship = { name = "RCT Daniele Manin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
+			# V Squadriglia Cacciatorpediniere
+			ship = { name = "RCT Leone" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
+			ship = { name = "RCT Pantera" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
+			ship = { name = "RCT Tigre" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
+			# V Squadriglia Torpediniere del Mar Rosso
+			ship = { name = "RCT Giovanni Acerbi" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
+			ship = { name = "RCT Vincenzo Giordano Orsini" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
+		} 
+		task_force = { 
+			name = "VIII Gruppo Sommergibili" 
+			location = 11837 # Massawa, Eritrea
+			# LXXXI Squadriglia Sommergibili
+			ship = { name = "RSmg Luigi Settembrini" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
+			ship = { name = "RSmg Ruggiero Settimo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
+			ship = { name = "RSmg Salpa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
+			ship = { name = "RSmg Serpente " definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
+		} 
 	}
 	
 	fleet = {
@@ -276,36 +301,6 @@ units= {
 			ship = { name = "RSmg Narvalo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
 			ship = { name = "RSmg Squalo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
 			ship = { name = "RSmg Tricheco" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-		} 
-	}
-	
-	fleet = {
-		name = "Comando Navale Mar Rosso"			
-		naval_base = 12766 # Massawa, Eritrea
-		task_force = { 
-			name = "Squadra di Mar Rosso" 
-			location = 12766 # Massawa, Eritrea
-			# III Squadriglia Cacciatorpediniere
-			ship = { name = "RCT Francesco Nullo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
-			ship = { name = "RCT Nazario Sauro" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
-			ship = { name = "RCT Cesare Battisti" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
-			ship = { name = "RCT Daniele Manin" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
-			# V Squadriglia Cacciatorpediniere
-			ship = { name = "RCT Leone" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
-			ship = { name = "RCT Pantera" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
-			ship = { name = "RCT Tigre" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Navigatori Class" } } } 
-			# V Squadriglia Torpediniere del Mar Rosso
-			ship = { name = "RCT Giovanni Acerbi" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
-			ship = { name = "RCT Vincenzo Giordano Orsini" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } } 
-		} 
-		task_force = { 
-			name = "VIII Gruppo Sommergibili" 
-			location = 12766 # Massawa, Eritrea
-			# LXXXI Squadriglia Sommergibili
-			ship = { name = "RSmg Luigi Settembrini" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Ruggiero Settimo" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
-			ship = { name = "RSmg Salpa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-			ship = { name = "RSmg Serpente " definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
 		} 
 	}
 } 

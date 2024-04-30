@@ -97,7 +97,7 @@ air_wings = {
 	} 
 
 	# Aeronautica dell'Africa Orientale (Eritrea)
-	550 = { 
+	117 = { 
 		small_plane_airframe_0 = { 
 			amount = 40 
 			owner = "ITA" 

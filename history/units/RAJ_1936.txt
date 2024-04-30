@@ -55,7 +55,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 101
 		}
-		location = 12717
+		location = 2086
 		division_template = "District Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -65,7 +65,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 102
 		}
-		location = 4998
+		location = 2086
 		division_template = "District Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -75,7 +75,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 103
 		}
-		location = 12005
+		location = 9975
 		division_template = "District Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -85,7 +85,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 104
 		}
-		location = 10843
+		location = 9975
 		division_template = "District Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
@@ -95,7 +95,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 105
 		}
-		location = 1978
+		location = 2086
 		division_template = "District Garrison"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
