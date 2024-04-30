@@ -1,0 +1,43 @@
+﻿focus_tree = {
+	id = no_mission_tree
+	
+	country = {
+		base = 20 
+	}
+	
+
+	default = yes
+
+	focus = {
+		id = NOCONTENT_base
+		icon = GFX_
+		
+		text = "No Mission Tree"
+		
+		x = 5
+		y = 0
+
+		cost = 0
+
+		ai_will_do = {
+			factor = -1
+		}
+
+		available = {
+			always = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = {  }
+		completion_reward = {
+			custom_effect_tooltip = "This country currently has no mission tree added to it, Expect it in the future"
+		}
+	}
+}
