@@ -33,7 +33,7 @@ CHI_economic_policies = {
 
 		icon = hol_attract_foreign_investors
 
-		name = "Implement the Grain Tax"
+		name = "Implement the Grain Taxs"
 
 		available = {
 			NOT = { has_idea = CHI_grain_tax}
