@@ -1,0 +1,216 @@
+############################################################################################################
+#	Expert AI mod templates
+############################################################################################################
+
+AI_infantry_role = {
+	roles = { infantry }
+	upgrade_prio = {
+		base = 100
+	}
+	match_to_count = 0.5
+
+	#####################################################
+	#	10W
+	#####################################################
+
+	GENERIC_INFANTRY_TEMPLATE_10_REGULAR = {
+		enable = { always = yes }
+		production_prio = { 
+			base = 10
+			modifier = {
+				factor = 0
+				is_major = yes
+			} 
+		}
+		upgrade_prio = { 
+			base = 10
+			modifier = {
+				factor = 0
+				is_major = yes
+			}  
+		}
+
+		# TEMPLATE
+		target_width = 10
+		width_weight = 100
+		column_swap_factor = 1.5
+		reinforce_prio = 1
+
+		target_template = {
+			weight = 100
+			match_value = 100
+
+			regiments = {
+				infantry = 5
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			infantry
+		}
+	}
+
+	#####################################################
+	#	15W
+	#####################################################
+
+	### cheap version
+
+	GENERIC_INFANTRY_TEMPLATE_15_REGULAR = {
+		enable = { always = yes }
+		production_prio = { 
+			base = 10
+			modifier = {
+				factor = 1.1
+				num_of_military_factories > 10
+			} 
+		}
+		upgrade_prio = { 
+			base = 10
+			modifier = {
+				factor = 1.1
+				num_of_military_factories > 10
+			}  
+		}
+
+		# TEMPLATE
+		target_width = 15
+		width_weight = 100
+		column_swap_factor = 1.5
+		reinforce_prio = 1
+
+		target_template = {
+			weight = 100
+			match_value = 100
+
+			regiments = {
+				infantry = 6
+				artillery_brigade = 1
+			}
+			support = {
+				anti_air = 1
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			infantry
+			artillery_brigade
+
+			# SUPPORT
+			anti_air
+		}
+	}
+
+	#####################################################
+	#	30W
+	#####################################################
+
+	### balanced
+
+	GENERIC_INFANTRY_TEMPLATE_30_CHEAP = {
+		enable = { always = yes }
+		production_prio = { 
+			base = 10
+			modifier = {
+				factor = 2.0
+				num_of_military_factories > 35
+			} 
+		}
+		upgrade_prio = { 
+			base = 10
+			modifier = {
+				factor = 2.0
+				num_of_military_factories > 35
+			}  
+		}
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 100
+		column_swap_factor = 1.5
+		reinforce_prio = 1
+
+		target_template = {
+			weight = 100
+			match_value = 100
+
+			regiments = {
+				infantry = 12
+				artillery_brigade = 2
+			}
+
+			support = {
+				engineer = 1
+				artillery = 1
+				anti_air = 1
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			infantry
+			artillery_brigade
+
+			# SUPPORT
+			engineer
+			artillery
+			anti_air
+		}
+	}
+
+	GENERIC_INFANTRY_TEMPLATE_30_REGULAR = {
+		enable = { always = yes }
+		production_prio = { 
+			base = 10
+			modifier = {
+				factor = 3.5
+				num_of_military_factories > 70
+			} 
+		}
+		upgrade_prio = { 
+			base = 10
+			modifier = {
+				factor = 3.5
+				num_of_military_factories > 70
+			}  
+		}
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 100
+		column_swap_factor = 1.5
+		reinforce_prio = 1
+
+		target_template = {
+			weight = 100
+			match_value = 100
+
+			regiments = {
+				infantry = 12
+				artillery_brigade = 2
+			}
+
+			support = {
+				engineer = 1
+				artillery = 1
+				anti_air = 1
+				logistics_company = 1
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			infantry
+			artillery_brigade
+			anti_air_brigade
+
+			# SUPPORT
+			engineer
+			artillery
+			anti_air
+			logistics_company
+		}
+	}
+}

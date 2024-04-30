@@ -1,0 +1,229 @@
+############################################################################################################
+#	Expert AI mod templates
+############################################################################################################
+
+AI_armor_role = {
+	roles = { armor }
+	upgrade_prio = {
+		base = 1
+	}
+	match_to_count = 0.55
+
+	#********************************************************************************************************#
+	#********************************************************************************************************#
+	#	Light
+	#********************************************************************************************************#
+	#********************************************************************************************************#
+
+	#####################################################
+	#	30W
+	#####################################################
+
+	GENERIC_LIGHT_ARMOR_BASIC_30W = {
+		enable = { has_tech = basic_light_tank_chassis }
+		production_prio = { base = 10 }
+		upgrade_prio = { base = 10 }
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 1
+		column_swap_factor = 1
+		reinforce_prio = 2
+
+		target_template = {
+			weight = 1
+			match_value = 100
+
+			regiments = {
+				light_armor = 9
+				motorized = 6
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			light_armor
+			motorized
+		}
+	}
+
+	#********************************************************************************************************#
+	#********************************************************************************************************#
+	#	Medium
+	#********************************************************************************************************#
+	#********************************************************************************************************#
+
+	#####################################################
+	#	30W
+	#####################################################
+
+	GENERIC_MEDIUM_ARMOR_BASIC_30W = {
+		enable = { has_tech = basic_medium_tank_chassis }
+		production_prio = { base = 10 }
+		upgrade_prio = { base = 10 }
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 1
+		column_swap_factor = 1
+		reinforce_prio = 2
+
+		target_template = {
+			weight = 1
+			match_value = 100
+
+			regiments = {
+				medium_armor = 9
+				motorized = 6
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			medium_armor
+			motorized
+		}
+	}
+
+	GENERIC_MEDIUM_ARMOR_BASIC_30W_mech = {
+		enable = { AND = { has_tech = basic_medium_tank_chassis has_tech = mechanised_infantry} }
+		production_prio = { base = 15 }
+		upgrade_prio = { base = 15 }
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 1
+		column_swap_factor = 1
+		reinforce_prio = 2
+
+		target_template = {
+			weight = 1
+			match_value = 100
+
+			regiments = {
+				medium_armor = 9
+				motorized = 6
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			medium_armor
+			motorized
+		}
+	}
+
+	#********************************************************************************************************#
+	#********************************************************************************************************#
+	#	Heavy
+	#********************************************************************************************************#
+	#********************************************************************************************************#
+
+	#####################################################
+	#	30W
+	#####################################################
+
+	GENERIC_HEAVY_ARMOR_BASIC_30W = {
+		enable = { has_tech = basic_heavy_tank_chassis }
+		production_prio = { base = 10 }
+		upgrade_prio = { base = 10 }
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 1
+		column_swap_factor = 1
+		reinforce_prio = 2
+
+		target_template = {
+			weight = 1
+			match_value = 100
+
+			regiments = {
+				heavy_armor = 9
+				motorized = 6
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			heavy_armor
+			motorized
+		}
+	}
+	
+	GENERIC_HEAVY_ARMOR_BASIC_30W_mech = {
+		enable = { AND = { has_tech = basic_heavy_tank_chassis has_tech = mechanised_infantry} }
+		production_prio = { base = 15 }
+		upgrade_prio = { base = 15 }
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 1
+		column_swap_factor = 1
+		reinforce_prio = 2
+
+		target_template = {
+			weight = 1
+			match_value = 100
+
+			regiments = {
+				heavy_armor = 9
+				mechanized = 6
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			heavy_armor
+			mechanized
+		}
+	}
+
+	#####################################################
+	#	30W
+	#####################################################
+
+	GENERIC_MODERN_ARMOR_TEMPLATE_30 = {
+		enable = { has_tech = main_battle_tank_chassis }
+		production_prio = { base = 10 }
+		upgrade_prio = { base = 10 }
+
+		# TEMPLATE
+		target_width = 30
+		width_weight = 1
+		column_swap_factor = 1
+		reinforce_prio = 2
+
+		target_template = {
+			weight = 1
+			match_value = 100
+
+			regiments = {
+				modern_armor = 9
+				mechanized = 6
+			}
+
+			support = {
+				light_tank_recon = 1
+				logistics_company = 1
+				anti_air = 1
+				maintenance_company = 1
+				medium_flame_tank = 1
+			}
+		}
+
+		allowed_types = {
+			# REGIMENTS
+			modern_armor
+			modern_tank_destroyer_brigade
+			mechanized
+
+			# SUPPORT
+			light_tank_recon
+			logistics_company
+			anti_air
+			maintenance_company
+			medium_flame_tank
+		}
+	}
+}
