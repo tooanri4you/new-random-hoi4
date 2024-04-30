@@ -10,7 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = CHI
+		owner = CHI 
+		add_claim_by = MAN
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 2
@@ -23,7 +24,8 @@ state= {
 		}
 
 		1938.10.25 = {		
-			owner = CHI
+			owner = CHI 
+		add_claim_by = MAN
 			JAP = {
 				set_province_controller = 1202
 				set_province_controller = 4050

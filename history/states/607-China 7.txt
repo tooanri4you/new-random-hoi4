@@ -9,7 +9,8 @@ state={
 	buildings_max_level_factor=1.000
 
 	history={
-		owner = CHI
+		owner = CHI 
+		add_claim_by = MAN
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 3 #was: 5
