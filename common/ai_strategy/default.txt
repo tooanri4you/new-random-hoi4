@@ -1615,3 +1615,98 @@ we_dont_believe_in_mountain_tanks = {
 		value = -100
 	}
 }
+
+ai_is_usually_trash_with_navy_so_don't_bother_researching_it = {
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = { type = dockyard_to_military_factory_ratio value = -100 }
+
+	ai_strategy = { type = research_weight_factor id = early_ship_hull_light value = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_ship_hull_light value = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_ship_hull_light value = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_ship_hull_light value = -100 }
+	ai_strategy = { type = research_weight_factor id = early_ship_hull_cruiser value = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_ship_hull_cruiser value = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_ship_hull_cruiser value = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_ship_hull_cruiser value = -100 }
+	ai_strategy = { type = research_weight_factor id = early_ship_hull_heavy value = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_ship_hull_heavy value = -100 }
+	ai_strategy = { type = research_weight_factor id = ship_hull_super_heavy value = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_ship_hull_heavy value = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_ship_hull_heavy value = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_heavy_armor_scheme value = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_heavy_armor_scheme value = -100 }
+	ai_strategy = { type = research_weight_factor id = early_ship_hull_carrier value = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_ship_hull_carrier value = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_ship_hull_carrier value = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_ship_hull_carrier value = -100 }
+	ai_strategy = { type = research_weight_factor id = early_ship_hull_submarine value = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_ship_hull_submarine value = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_ship_hull_submarine value = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_ship_hull_submarine value = -100 }
+
+	ai_strategy = { type = research_weight_factor id = basic_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_light_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_light_shell = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_light_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_light_shell = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_light_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_medium_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_medium_shell = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_medium_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_medium_shell = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_medium_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_heavy_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_heavy_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_heavy_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_heavy_shell = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_heavy_shell = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_dp_light_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_dp_light_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_dp_light_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_dp_medium_battery = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_torpedo = -100 }
+	ai_strategy = { type = research_weight_factor id = magnetic_detonator = -100 }
+	ai_strategy = { type = research_weight_factor id = homing_torpedo = -100 }
+	ai_strategy = { type = research_weight_factor id = electric_torpedo = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_ship_torpedo_launcher = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_ship_torpedo_launcher = -100 }
+	ai_strategy = { type = research_weight_factor id = modern_ship_torpedo_launcher = -100 }
+	ai_strategy = { type = research_weight_factor id = damage_control_1 = -100 }
+	ai_strategy = { type = research_weight_factor id = damage_control_2 = -100 }
+	ai_strategy = { type = research_weight_factor id = damage_control_3 = -100 }
+	ai_strategy = { type = research_weight_factor id = fire_control_methods_1 = -100 }
+	ai_strategy = { type = research_weight_factor id = fire_control_methods_2 = -100 }
+	ai_strategy = { type = research_weight_factor id = fire_control_methods_3 = -100 }
+	ai_strategy = { type = research_weight_factor id = basic_naval_mines = -100 }
+	ai_strategy = { type = research_weight_factor id = submarine_mine_laying = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_submarine_mine_laying = -100 }
+	ai_strategy = { type = research_weight_factor id = improved_naval_mines = -100 }
+	ai_strategy = { type = research_weight_factor id = degaussing = -100 }
+	ai_strategy = { type = research_weight_factor id = advanced_naval_mines = -100 }
+	ai_strategy = { type = research_weight_factor id = airdrop_mines = -100 }
+	ai_strategy = { type = research_weight_factor id = airdrop_mines_bba = -100 }
+	ai_strategy = { type = research_weight_factor id = modern_naval_mines = -100 }
+	ai_strategy = { type = research_weight_factor id = airsweep_mines = -100 }
+	ai_strategy = { type = research_weight_factor id = airsweep_mines_bba = -100 }
+	ai_strategy = { type = research_weight_factor id = mtg_transport = -100 }
+	ai_strategy = { type = research_weight_factor id = mtg_tank_landing_craft = -100 }
+}
+
+ai_should_not_be_doing_stupid_stuff_like_getting_nukes_in_1936 = {
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dockyard_to_military_factory_ratio
+		value = -50
+	}
+
+	ai_strategy = { type = research_weight_factor id = atomic_research value = -100 }
+	ai_strategy = { type = research_weight_factor id = experimental_rockets value = -100 }
+}

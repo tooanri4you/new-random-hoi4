@@ -1,6 +1,6 @@
 -------- QoL
 ---- Basic multiplayer stuff
-NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 30                           -- Up from 10, should allow for more flexibility with picking focuses while doing something else, like tank templates
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 1                           -- Up from 10, should allow for more flexibility with picking focuses while doing something else, like tank templates
 NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0, 0.24, 0.17, 0.07, 0.0 }
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 480
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 21
@@ -55,3 +55,9 @@ NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 1200
 
 -- Ace bonus
 NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 1                       -- biggest bonus we can get from having a small wing with an ace on
+
+--------
+
+-------- Juicy new mod stuff
+---- Political power gain nerf
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1 -- 2 -- Since there are no more focuses, political power is now 1 per day instead of 2
