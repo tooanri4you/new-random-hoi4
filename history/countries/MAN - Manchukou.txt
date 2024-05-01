@@ -43,7 +43,7 @@ if = {
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = MAN_kwantung_veto
-	add_ideas = MAN_low_legitimacy_5
+	#add_ideas = MAN_low_legitimacy_5
 	recruit_character = MAN_songgotu_zhanshan
 }
 

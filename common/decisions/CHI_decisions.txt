@@ -15,6 +15,7 @@ CHI_economic_policies = {
 		}
 		days_remove = 60
 
+		fire_only_once = yes
 		visible = {
 			NOT = { has_idea = CHI_executive_yuan}
 		}
@@ -45,6 +46,7 @@ CHI_economic_policies = {
 		}
 		days_remove = 60
 
+		fire_only_once = yes
 		visible = {
 			NOT = { has_idea = CHI_grain_tax}
 		}
@@ -97,6 +99,8 @@ CHI_economic_policies = {
 		available = {
 			num_of_factories > 50
 		}
+
+		fire_only_once = yes
 
 		cost = 25
 		ai_will_do = {

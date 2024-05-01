@@ -4,7 +4,7 @@ state={
 	name="STATE_328" # Kirin
 	manpower = 7536266
 	
-	state_category = city
+	state_category = large_city
 
 	resources={
 		aluminium=7 # was: 10
@@ -16,8 +16,8 @@ state={
 		add_core_of = CHI
 		add_core_of = MAN
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 4
 			arms_factory = 1
 		}
 		victory_points = {
