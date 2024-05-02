@@ -1,0 +1,2 @@
+﻿l_english:
+ CORING1_BUTTON_TT:0 "§HCore [This.GetName]§!\n\nThis action costs £pol_power §g[?This.coringcost]§! and will take §3[?This.coringdays] days.§!\n"

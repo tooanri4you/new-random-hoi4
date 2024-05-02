@@ -27,7 +27,7 @@ guiTypes = {
 		show_position = { x=-6 y =-549 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 0
 		orientation = lower_left
 		size = { width=436 height=496 }
 		
@@ -422,6 +422,26 @@ guiTypes = {
 			position = { x = -31 y = 135 }
 			quadTextureSprite ="GFX_scorched_earth"
 			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
+		}
+	}
+	
+	containerWindowType = {
+		name = "state_coring_window"
+		position = { x=-416 y=-549}
+		show_position = { x=-6 y =-549 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 0
+		orientation = lower_left
+		size = { width=436 height=496 }
+		
+		buttonType = {
+			name = "state_coring" 
+			position = {x = -70 y = 135}
+			shortcut = ""
+			spriteType = "GFX_decision_generic_form_nation"
+			pdx_tooltip = "CORING1_BUTTON_TT"
 			Orientation = "UPPER_RIGHT"
 		}
 	}

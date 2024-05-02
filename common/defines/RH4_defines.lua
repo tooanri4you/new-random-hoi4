@@ -61,3 +61,9 @@ NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 1                       -- biggest bonus
 -------- Juicy new mod stuff
 ---- Political power gain nerf
 NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1 -- 2 -- Since there are no more focuses, political power is now 1 per day instead of 2
+
+
+
+
+NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.05
+

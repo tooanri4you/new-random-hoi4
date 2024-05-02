@@ -1,0 +1,207 @@
+on_actions = {
+	on_monthly = {
+		effect = {
+			every_state = {
+					set_variable = {
+						var = coringcost
+						value = 30
+					}
+					
+					set_variable = { civs = THIS.building_level@industrial_complex }
+					multiply_variable = { civs = 10 }
+					
+					set_variable = { mils = THIS.building_level@arms_factory }
+					multiply_variable = { mils = 10 }
+					
+					set_variable = { docks = THIS.building_level@dockyard }
+					multiply_variable = { docks = 10 }
+					
+					set_variable = { infra = THIS.building_level@infrastructure }
+					multiply_variable = { infra = 2 }
+					
+					set_variable = { pops = THIS.state_population_k }
+					multiply_variable = { pops = 0.001 }
+					
+					set_variable = { oilv = THIS.resource@oil }
+					multiply_variable = { oilv = 0.1 }
+					
+					set_variable = { aluminiumv = THIS.resource@aluminium }
+					multiply_variable = { aluminiumv = 0.1 }
+					
+					set_variable = { rubberv = THIS.resource@rubber }
+					multiply_variable = { rubberv = 0.1 }
+					
+					set_variable = { tungstenv = THIS.resource@tungsten }
+					multiply_variable = { tungstenv = 0.1 }
+					
+					set_variable = { steelv = THIS.resource@steel }
+					multiply_variable = { steelv = 0.1 }
+					
+					set_variable = { chromiumv = THIS.resource@chromium }
+					multiply_variable = { chromiumv = 0.1 }
+					
+					add_to_variable = { coringcost = civs }
+					add_to_variable = { coringcost = mils }
+					add_to_variable = { coringcost = docks }
+					add_to_variable = { coringcost = infra }
+					add_to_variable = { coringcost = pops }
+					add_to_variable = { coringcost = oilv }
+					add_to_variable = { coringcost = aluminiumv }
+					add_to_variable = { coringcost = rubberv }
+					add_to_variable = { coringcost = tungstenv }
+					add_to_variable = { coringcost = steelv }
+					add_to_variable = { coringcost = chromiumv }
+					
+					round_variable = coringcost
+					
+					set_variable = {
+						var = coringdays
+						value = 0
+					}
+					
+					add_to_variable = { coringdays = coringcost }
+					multiply_variable = { coringdays = 0.5 }
+					round_variable = coringdays
+					
+			}
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			every_state = {
+					set_variable = {
+						var = coringcost
+						value = 30
+					}
+					
+					set_variable = { civs = THIS.building_level@industrial_complex }
+					multiply_variable = { civs = 10 }
+					
+					set_variable = { mils = THIS.building_level@arms_factory }
+					multiply_variable = { mils = 10 }
+					
+					set_variable = { docks = THIS.building_level@dockyard }
+					multiply_variable = { docks = 10 }
+					
+					set_variable = { infra = THIS.building_level@infrastructure }
+					multiply_variable = { infra = 2 }
+					
+					set_variable = { pops = THIS.state_population_k }
+					multiply_variable = { pops = 0.001 }
+					
+					set_variable = { oilv = THIS.resource@oil }
+					multiply_variable = { oilv = 0.1 }
+					
+					set_variable = { aluminiumv = THIS.resource@aluminium }
+					multiply_variable = { aluminiumv = 0.1 }
+					
+					set_variable = { rubberv = THIS.resource@rubber }
+					multiply_variable = { rubberv = 0.1 }
+					
+					set_variable = { tungstenv = THIS.resource@tungsten }
+					multiply_variable = { tungstenv = 0.1 }
+					
+					set_variable = { steelv = THIS.resource@steel }
+					multiply_variable = { steelv = 0.1 }
+					
+					set_variable = { chromiumv = THIS.resource@chromium }
+					multiply_variable = { chromiumv = 0.1 }
+					
+					add_to_variable = { coringcost = civs }
+					add_to_variable = { coringcost = mils }
+					add_to_variable = { coringcost = docks }
+					add_to_variable = { coringcost = infra }
+					add_to_variable = { coringcost = pops }
+					add_to_variable = { coringcost = oilv }
+					add_to_variable = { coringcost = aluminiumv }
+					add_to_variable = { coringcost = rubberv }
+					add_to_variable = { coringcost = tungstenv }
+					add_to_variable = { coringcost = steelv }
+					add_to_variable = { coringcost = chromiumv }
+					
+					round_variable = coringcost
+					
+					set_variable = {
+						var = coringdays
+						value = 0
+					}
+					
+					add_to_variable = { coringdays = coringcost }
+					multiply_variable = { coringdays = 0.5 }
+					round_variable = coringdays
+					
+			}
+		}
+	}
+	
+#	on_daily = {
+#		effect = {
+#			every_state = {
+#					set_variable = {
+#						var = coringcost
+#						value = 30
+#					}
+#					
+#					set_variable = { civs = THIS.building_level@industrial_complex }
+#					multiply_variable = { civs = 10 }
+#					
+#					set_variable = { mils = THIS.building_level@arms_factory }
+#					multiply_variable = { mils = 10 }
+#					
+#					set_variable = { docks = THIS.building_level@dockyard }
+#					multiply_variable = { docks = 10 }
+#					
+#					set_variable = { infra = THIS.building_level@infrastructure }
+#					multiply_variable = { infra = 2 }
+#					
+#					set_variable = { pops = THIS.state_population_k }
+#					multiply_variable = { pops = 0.001 }
+#					
+#					set_variable = { oilv = THIS.resource@oil }
+#					multiply_variable = { oilv = 0.1 }
+#					
+#					set_variable = { aluminiumv = THIS.resource@aluminium }
+#					multiply_variable = { aluminiumv = 0.1 }
+#					
+#					set_variable = { rubberv = THIS.resource@rubber }
+#					multiply_variable = { rubberv = 0.1 }
+#					
+#					set_variable = { tungstenv = THIS.resource@tungsten }
+#					multiply_variable = { tungstenv = 0.1 }
+#					
+#					set_variable = { steelv = THIS.resource@steel }
+#					multiply_variable = { steelv = 0.1 }
+#					
+#					set_variable = { chromiumv = THIS.resource@chromium }
+#					multiply_variable = { chromiumv = 0.1 }
+#					
+#					add_to_variable = { coringcost = civs }
+#					add_to_variable = { coringcost = mils }
+#					add_to_variable = { coringcost = docks }
+#					add_to_variable = { coringcost = infra }
+#					add_to_variable = { coringcost = pops }
+#					add_to_variable = { coringcost = oilv }
+#					add_to_variable = { coringcost = aluminiumv }
+#					add_to_variable = { coringcost = rubberv }
+#					add_to_variable = { coringcost = tungstenv }
+#					add_to_variable = { coringcost = steelv }
+#					add_to_variable = { coringcost = chromiumv }
+#					
+#					round_variable = coringcost
+#					
+#					set_variable = {
+#						var = coringdays
+#						value = 0
+#					}
+#					
+#					add_to_variable = { coringdays = coringcost }
+#					multiply_variable = { coringdays = 0.5 }
+#					round_variable = coringdays
+#					
+#			}
+#		}
+#	}
+	
+	
+}

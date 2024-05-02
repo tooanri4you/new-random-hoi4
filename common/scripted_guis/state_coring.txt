@@ -1,0 +1,47 @@
+scripted_gui = {
+	state_coring = {
+	
+		context_type = selected_state_context
+		
+		window_name = "state_coring_window"
+		
+		visible = {
+			is_fully_controlled_by = ROOT
+			NOT = { is_core_of = ROOT }
+		}
+		
+		effects = {
+			state_coring_click = {
+				ROOT = {
+					set_variable = {ROOT.state_coring = PREV}
+					activate_mission = state_coring
+					set_variable = { c = PREV.coringcost }
+					multiply_variable = {c = -1}
+					add_political_power = c
+					set_variable = { ROOT.mcs = PREV.coringdays }
+				}
+			}
+		}
+		
+		triggers = {
+			state_coring_click_enabled = {
+				NOT = { ROOT = { has_political_power < PREV.coringcost } }
+			}
+		}
+		        
+		ai_check = {
+			NOT = { ROOT = { has_political_power < PREV.coringcost } }
+			check_variable = { ai_random > 0.65 }
+		}
+		
+		ai_weights = {
+			state_coring_click = {
+				ai_will_do = {
+					factor = 40
+				}
+			}
+		}
+	}
+}
+
+
