@@ -127,9 +127,9 @@ political_actions = {
 		}
 	}
 	
-	state_coring = {
+	state_coring1 = {
           available = {
-			var:ROOT.state_coring = { NOT = { is_fully_controlled_by = ROOT } }
+			var:ROOT.state_coring1 = { NOT = { is_fully_controlled_by = ROOT } }
 		  }
           activation = {
             always = no
@@ -138,11 +138,98 @@ political_actions = {
 		  days_remove = 1
 		  is_good = yes
           timeout_effect = {
-				var:ROOT.state_coring = {
+				var:ROOT.state_coring1 = {
 					add_core_of = ROOT
+					clr_state_flag = statebeingcored
 				}
+				clr_country_flag = coringstate1
 		  }
           complete_effect = {
+		  	var:ROOT.state_coring1 { clr_state_flag = statebeingcored }
+		  }
+	}
+	state_coring2 = {
+          available = {
+			var:ROOT.state_coring2 = { NOT = { is_fully_controlled_by = ROOT } }
+		  }
+          activation = {
+            always = no
+          }
+          days_mission_timeout = var:ROOT.mcs
+		  days_remove = 1
+		  is_good = yes
+          timeout_effect = {
+				var:ROOT.state_coring2 = {
+					add_core_of = ROOT
+					clr_state_flag = statebeingcored
+				}
+				clr_country_flag = coringstate2
+		  }
+          complete_effect = {
+		  	var:ROOT.state_coring2 { clr_state_flag = statebeingcored }
+		  }
+	}
+	state_coring3 = {
+          available = {
+			var:ROOT.state_coring3 = { NOT = { is_fully_controlled_by = ROOT } }
+		  }
+          activation = {
+            always = no
+          }
+          days_mission_timeout = var:ROOT.mcs
+		  days_remove = 1
+		  is_good = yes
+          timeout_effect = {
+				var:ROOT.state_coring3 = {
+					add_core_of = ROOT
+					clr_state_flag = statebeingcored
+				}
+				clr_country_flag = coringstate3
+		  }
+          complete_effect = {
+			var:ROOT.state_coring3 { clr_state_flag = statebeingcored }
+		  }
+	}
+	state_coring4 = {
+          available = {
+			var:ROOT.state_coring4 = { NOT = { is_fully_controlled_by = ROOT } }
+		  }
+          activation = {
+            always = no
+          }
+          days_mission_timeout = var:ROOT.mcs
+		  days_remove = 1
+		  is_good = yes
+          timeout_effect = {
+				var:ROOT.state_coring4 = {
+					add_core_of = ROOT
+					clr_state_flag = statebeingcored
+				}
+				clr_country_flag = coringstate4
+		  }
+          complete_effect = {
+			var:ROOT.state_coring4 { clr_state_flag = statebeingcored }
+		  }
+	}
+	state_coring5 = {
+          available = {
+			var:ROOT.state_coring5 = { NOT = { is_fully_controlled_by = ROOT } }
+		  }
+          activation = {
+            always = no
+          }
+          days_mission_timeout = var:ROOT.mcs
+		  days_remove = 1
+		  is_good = yes
+          timeout_effect = {
+				var:ROOT.state_coring5 = {
+					add_core_of = ROOT
+					clr_state_flag = statebeingcored
+				}
+				clr_country_flag = coringstate5
+		  }
+          complete_effect = {
+			var:ROOT.state_coring5 { clr_state_flag = statebeingcored }
 		  }
 	}
 

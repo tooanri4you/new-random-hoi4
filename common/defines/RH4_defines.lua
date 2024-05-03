@@ -1,6 +1,6 @@
 -------- QoL
 ---- Basic multiplayer stuff
-NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 1                           -- Up from 10, should allow for more flexibility with picking focuses while doing something else, like tank templates
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 0                           -- Up from 10, should allow for more flexibility with picking focuses while doing something else, like tank templates
 NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0, 0.24, 0.17, 0.07, 0.0 }
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 480
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 21

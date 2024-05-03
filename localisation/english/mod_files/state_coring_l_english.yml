@@ -1,0 +1,7 @@
+﻿l_english:
+ CORING1_BUTTON_TT:0 "§HCore [THIS.GetName]§!\n\nThis action costs £pol_power §g[?This.coringcost]§! and will take §3[?This.coringdays] days.§!\n"
+ state_coring1:0 "Coring §H[?THIS.state_coring1.GetName]§!"
+ state_coring2:0 "Coring §H[?THIS.state_coring2.GetName]§!"
+ state_coring3:0 "Coring §H[?THIS.state_coring3.GetName]§!"
+ state_coring4:0 "Coring §H[?THIS.state_coring4.GetName]§!"
+ state_coring5:0 "Coring §H[?THIS.state_coring5.GetName]§!"

@@ -13,12 +13,47 @@ scripted_gui = {
 		effects = {
 			state_coring_click = {
 				ROOT = {
-					set_variable = {ROOT.state_coring = PREV}
-					activate_mission = state_coring
 					set_variable = { c = PREV.coringcost }
 					multiply_variable = {c = -1}
 					add_political_power = c
 					set_variable = { ROOT.mcs = PREV.coringdays }
+					
+					if = {
+						limit = { NOT = { has_country_flag = coringstate1 } }
+						set_variable = {ROOT.state_coring1 = PREV}
+						activate_mission = state_coring1
+						set_country_flag = coringstate1
+						PREV = { set_state_flag = statebeingcored }
+					}
+					else_if = {	
+						limit = { NOT = { has_country_flag = coringstate2 } }
+						set_variable = {ROOT.state_coring2 = PREV}
+						activate_mission = state_coring2
+						set_country_flag = coringstate2
+						PREV = { set_state_flag = statebeingcored }
+					}
+					else_if = {	
+						limit = { NOT = { has_country_flag = coringstate3 } }
+						set_variable = {ROOT.state_coring3 = PREV}
+						activate_mission = state_coring3
+						set_country_flag = coringstate3
+						PREV = { set_state_flag = statebeingcored }
+					}
+					else_if = {	
+						limit = { NOT = { has_country_flag = coringstate4 } }
+						set_variable = {ROOT.state_coring4 = PREV}
+						activate_mission = state_coring4
+						set_country_flag = coringstate4
+						PREV = { set_state_flag = statebeingcored }
+					}
+					else_if = {	
+						limit = { NOT = { has_country_flag = coringstate5 } }
+						set_variable = {ROOT.state_coring5 = PREV}
+						activate_mission = state_coring5
+						set_country_flag = coringstate5
+						PREV = { set_state_flag = statebeingcored }
+					}
+					
 				}
 			}
 		}
@@ -26,6 +61,16 @@ scripted_gui = {
 		triggers = {
 			state_coring_click_enabled = {
 				NOT = { ROOT = { has_political_power < PREV.coringcost } }
+				ROOT = {
+					OR = {
+						NOT = { has_country_flag = coringstate1 }
+						NOT = { has_country_flag = coringstate2 }
+						NOT = { has_country_flag = coringstate3 }
+						NOT = { has_country_flag = coringstate4 }
+						NOT = { has_country_flag = coringstate5 }
+					}
+				}
+				PREV = { NOT = { has_state_flag = statebeingcored } }
 			}
 		}
 		        
