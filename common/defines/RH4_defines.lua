@@ -62,8 +62,9 @@ NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 1                       -- biggest bonus
 ---- Political power gain nerf
 NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1 -- 2 -- Since there are no more focuses, political power is now 1 per day instead of 2
 
+---- Consumer Goods min cap removed
+NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE = 0      -- 1
+NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT = 0    -- 0.1
 
-
-
-NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.05
-
+---- Non core manpower increased
+NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.05                      -- 0.02
