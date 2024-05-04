@@ -1,18 +1,4 @@
 defined_text = {
-	name = nideas_open_button_tt_scriptloc
-	text = {
-		trigger = {
-			NOT = { has_global_flag = rt56rp_gr_nideas_gflag }
-		}
-		localization_key = nideas_open_button_tt1
-	}
-	text = {
-		trigger = {
-		}
-		localization_key = ""
-	}
-}
-defined_text = {
 	name = NIDEAS_SCRIPT_LOC_IDEA_COST_PP
 	text = {
 		trigger = {
