@@ -66,5 +66,8 @@ NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1 -- 2 -- Since there are no 
 NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE = 0      -- 1
 NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT = 0    -- 0.1
 
+---- Building Slots
+NDefines.NBuildings.MAX_SHARED_SLOTS = 28
+
 ---- Non core manpower increased
 NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.05                      -- 0.02

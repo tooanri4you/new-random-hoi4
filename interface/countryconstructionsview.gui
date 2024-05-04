@@ -121,7 +121,7 @@ guiTypes = {
 				name = "cic_bank_icon"
 				position = { x = 262 y = 22 }
 				spriteType = "GFX_civ_factory_output_icon"
-				hide = yes # Remove this line to show CIC bank info in the Constructions view.
+				hide = no # Remove this line to show CIC bank info in the Constructions view.
 			}
 
 			instantTextboxType = {
@@ -134,7 +134,7 @@ guiTypes = {
 				maxWidth = 70
 				maxHeight = 20
 				format = right
-				hide = yes # Remove this line to show CIC bank info in the Constructions view.
+				hide = no # Remove this line to show CIC bank info in the Constructions view.
 			}
 
 			iconType = {
@@ -242,13 +242,13 @@ guiTypes = {
 
 			iconType = {
 				name = "constructions_bg2"
-				position = { x = 0 y = 152 }
+				position = { x = 0 y = 252 }
 				quadTextureSprite = "GFX_constructions_bg4"
 			}
-
+			
 			iconType = {
 				name = "constructions_bg3"
-				position = { x = 0 y = 380 }
+				position = { x = 0 y = 445 }
 				quadTextureSprite = "GFX_constructions_bg1"
 			}
 
@@ -260,16 +260,16 @@ guiTypes = {
 
 			iconType = {
 				name = "shared_constructions"
-				position = { x = 5 y = 155 }
+				position = { x = 5 y = 255 }
 				quadTextureSprite = "GFX_shared_constructions"
 			}
 
 			iconType = {
 				name = "province_constructions"
-				position = { x = 5 y = 383 }
+				position = { x = 5 y = 448 }
 				quadTextureSprite = "GFX_province_constructions"
 			}
-
+			
 			gridBoxType = {
 				name = "non_shared_item_grid"
 				position = { x = 8 y = 51 }
@@ -278,28 +278,30 @@ guiTypes = {
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
-
+			
 			gridBoxType = {
 				name = "shared_item_grid"
-				position = { x = 8 y = 196 }
+				position = { x = 8 y = 296 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 46 height = 44 }
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
-			}
-
+			}			
+			
+			
 			gridBoxType = {
 				name = "province_item_grid"
-				position = { x = 8 y = 422 }
+				position = { x = 8 y = 487 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 46 height = 44 }
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
-
+			
 			buttonType = {
 				name = "convert_ic_button"
-				position = { x = -50 y = 332 }
+				position = { x = -40 y = 266 }
+				scale = 0.75
 				quadTextureSprite ="GFX_convert_ic_button"
 				buttonFont = "Main_14_black"
 				Orientation = "UPPER_RIGHT"
