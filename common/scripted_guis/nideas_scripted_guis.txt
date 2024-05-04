@@ -55,10 +55,8 @@ scripted_gui = {
 		
 		triggers = {
 			nideas_open_button1_click_enabled = {
-				has_global_flag = rt56rp_gr_nideas_gflag
 			}
 			nideas_open_button2_click_enabled = {
-				has_global_flag = rt56rp_gr_nideas_gflag
 			}
 			
 			nideas_open_button1_visible = { # can't take ideas
@@ -192,7 +190,6 @@ scripted_gui = {
 		window_name = "nideas_main_container"
 
 		visible = {
-            has_global_flag = rt56rp_gr_nideas_gflag
             has_country_flag = nideas_open_cflag
 		}
 

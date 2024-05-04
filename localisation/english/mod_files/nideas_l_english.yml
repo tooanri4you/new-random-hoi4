@@ -1,8 +1,7 @@
 ﻿l_english:
 
  NIDEAS_MAIN_TITLE:0 "National Ideas"
- nideas_open_button_tt1:0 "\n\n§RDisabled by Game Rule§!"
- NIDEAS_OPEN_BUTTON_TT:0 "Click here to view your §HNational Ideas§!. When ideas become available, this icon will glow.[nideas_open_button_tt_scriptloc]"
+ NIDEAS_OPEN_BUTTON_TT:0 "Click here to view your §HNational Ideas§!. When ideas become available, this icon will glow."
  
  NIDEAS_CW_ICON_TT:0 "§RCivil war in progress§!"
  NIDEAS_CW_ICON_DESC_TT:0 "Your government has no time to improve and innovate on the current bureaucratic practices during internal strife.\n\nAfter the war has concluded, you will be refunded £pol_power 50 for all ideas already taken by both sides of the civil war and all National Ideas will be reset."
