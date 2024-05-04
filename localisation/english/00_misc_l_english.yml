@@ -1,3 +1,4 @@
 ﻿l_english:
  # Everything China Related
- CHI_economic_policies:0 "Economic Policies"
+ generic_economic_policies:0 "Economic Policies"
+ generic_military_policies:0 "Military Policies"

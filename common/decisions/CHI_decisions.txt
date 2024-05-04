@@ -1,4 +1,4 @@
-CHI_economic_policies = {
+generic_economic_policies = {
 	CHI_adopt_yuan = {
 
 		icon = generic_fundraising
@@ -9,7 +9,7 @@ CHI_economic_policies = {
 			NOT = { has_idea = CHI_executive_yuan}
 		}
 
-		cost = 50
+		cost = 60
 		ai_will_do = {
 			factor = 1
 		}
@@ -18,6 +18,7 @@ CHI_economic_policies = {
 		fire_only_once = yes
 		visible = {
 			NOT = { has_idea = CHI_executive_yuan}
+			original_tag = CHI
 		}
 		remove_effect = {
 			add_ideas = CHI_executive_yuan
@@ -25,6 +26,41 @@ CHI_economic_policies = {
 		modifier = {
 			consumer_goods_factor = 0.10
 			political_power_factor = -0.20
+		}
+		complete_effect = {				
+		}		
+	}
+
+	CHI_legislative_yuan_dec = {
+
+		icon = generic_fundraising
+
+		name = "Legislative Yuan"
+
+		available = {
+			NOT = { has_idea = CHI_legislative_yuan}
+			has_idea = CHI_executive_yuan
+		}
+
+		cost = 40
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 40
+
+		fire_only_once = yes
+		visible = {
+			NOT = { has_idea = CHI_legislative_yuan}
+			original_tag = CHI
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = CHI_executive_yuan
+				add_idea = CHI_legislative_yuan
+			}
+		}
+		modifier = {
+			political_power_factor = -0.10
 		}
 		complete_effect = {				
 		}		
@@ -40,15 +76,16 @@ CHI_economic_policies = {
 			NOT = { has_idea = CHI_grain_tax}
 		}
 
-		cost = 50
+		cost = 100
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 100
 
 		fire_only_once = yes
 		visible = {
 			NOT = { has_idea = CHI_grain_tax}
+			original_tag = CHI
 		}
 		remove_effect = {
 			add_ideas = CHI_grain_tax
@@ -67,7 +104,7 @@ CHI_economic_policies = {
 		name = "Consumer Investments"
 
 		available = {
-			num_of_factories < 45
+			num_of_factories < 44
 		}
 
 		cost = 90
@@ -77,7 +114,8 @@ CHI_economic_policies = {
 		days_remove = 180
 
 		visible = {
-			num_of_factories < 45
+			num_of_factories < 44
+			original_tag = CHI
 		}
 		
 		modifier = {
@@ -97,7 +135,7 @@ CHI_economic_policies = {
 		name = "Technologic Advancement"
 
 		available = {
-			num_of_factories > 50
+			num_of_factories > 49
 		}
 
 		fire_only_once = yes
@@ -109,7 +147,7 @@ CHI_economic_policies = {
 		days_remove = 30
 
 		visible = {
-			
+			original_tag = CHI
 		}
 		
 		modifier = {
@@ -120,6 +158,74 @@ CHI_economic_policies = {
 		remove_effect = {		
 			add_stability = 0.1		
 			add_research_slot = 1
+		}		
+	}
+}
+
+generic_military_policies = {
+	CHI_war_of_resistance_dec = {
+
+		icon = generic_prepare_civil_war
+
+		name = "War of Resistance"
+
+		available = {
+			NOT = { has_idea = CHI_war_of_resistance}
+			has_war = yes
+		}
+
+		cost = 60
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 60
+
+		fire_only_once = yes
+		visible = {
+			NOT = { has_idea = CHI_war_of_resistance}
+			original_tag = CHI
+		}
+		remove_effect = {
+			add_ideas = CHI_war_of_resistance
+			add_war_support = 0.05
+			add_stability = -0.05	
+		}
+		modifier = {
+			political_power_factor = -0.25	
+		}
+		complete_effect = {			
+		}		
+	}
+	CHI_forced_conscription_dec = {
+
+		icon = generic_military
+
+		name = "War of Resistance"
+
+		available = {
+			NOT = { has_idea = CHI_forced_conscription}
+			has_war = yes
+		}
+
+		cost = 60
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 60
+
+		fire_only_once = yes
+		visible = {
+			NOT = { has_idea = CHI_forced_conscription}
+			original_tag = CHI
+		}
+		remove_effect = {
+			add_ideas = CHI_forced_conscription
+			add_stability = -0.05	
+		}
+		modifier = {
+			political_power_factor = -0.25
+		}
+		complete_effect = {			
 		}		
 	}
 }
@@ -721,7 +827,7 @@ CHI_occupation_actions = {
 		
 		available = {
 			controls_state = 607
-			has_war_with = JAP
+			has_war = yes
 			OR = {
 				NOT = { controls_state = 608 }
 				NOT = { controls_state = 614 }

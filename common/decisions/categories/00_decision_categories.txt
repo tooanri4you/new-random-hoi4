@@ -1,3 +1,27 @@
+generic_economic_policies = {
+	icon = generic_economy
+
+	allowed = {
+
+	}
+	visible = {
+		always = yes
+	}
+}
+generic_military_policies = {
+	icon = army_reform
+
+	allowed = {
+		
+	}
+	visible = {
+		always = yes
+	}
+}
+
+
+
+
 debug_decisions = {
 	icon = generic_research
 	visible = {
