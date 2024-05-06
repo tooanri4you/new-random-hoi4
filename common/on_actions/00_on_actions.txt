@@ -4284,4 +4284,48 @@ on_actions = {
 			}
 		}
 	}
+	on_state_control_changed = {
+			effect = {
+				if = {
+					limit = {
+						FROM = {
+							OR = { 
+								is_in_faction_with = ENG
+								tag = ENG
+							}
+						}
+						FROM.FROM = {
+							has_state_flag = ENG_controls
+						}
+					}
+					FROM.FROM = {  
+						clr_state_flag = ENG_controls
+					}
+
+					ENG = {
+						britannia_bases_level_down = yes
+					}
+				}
+			}
+	}
+	on_state_control_changed = {
+			effect = {
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								tag = ENG
+								is_in_faction_with = ENG
+							} 
+						}
+					}
+					FROM.FROM = { 
+						set_state_flag = ENG_controls 
+					}
+					ENG = {
+						britannia_bases_level_up = yes
+					}
+				}
+			}
+	}
 }

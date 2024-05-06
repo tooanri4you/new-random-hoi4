@@ -5,6 +5,7 @@ state={
 	state_category=town
 
 	history={
+		set_state_flag = ENG_controls
 		owner = EGY
 		buildings = {
 			infrastructure = 3

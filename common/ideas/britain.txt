@@ -1750,6 +1750,275 @@ ideas = {
 				repair_speed_factor = 0.1
 			}
 		}
+				britannia_controls_original = {
+			name = britannia_controls_original
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+		}
+
+		britannia_controls_idea_1 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			 modifier = {
+
+			 }
+			 
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_2 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			 modifier = {
+
+			 }
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_3 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			 modifier = {
+			stability_factor = 0.05
+			 }
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_4 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			 modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			 }
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+		britannia_controls_idea_5 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			 modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			 }
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_6 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_7 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				industrial_capacity_factory = 0.1
+				local_resources_factor	= 0.2
+			}
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_8 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				industrial_capacity_factory = 0.1
+				local_resources_factor	= 0.2
+			}
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_9 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				industrial_capacity_factory = 0.1
+				local_resources_factor	= 0.2
+			}
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+
+		britannia_controls_idea_10 = {
+
+			name = britannia_controls
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+				industrial_capacity_factory = 0.1
+				local_resources_factor	= 0.2
+			}
+			
+
+			picture = GBR_britannia
+			
+			removal_cost = -1	
+
+		}
+	
 
 	}
 	
@@ -2040,4 +2309,5 @@ ideas = {
 			}
 		}
 	}
+	
 }

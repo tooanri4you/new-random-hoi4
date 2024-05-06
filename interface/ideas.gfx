@@ -8744,6 +8744,10 @@ spriteTypes = {
 		name = "GFX_idea_BRA_air_force"
 		texturefile = "gfx/interface/ideas/idea_BRA_air_force.dds"
 	}
+	spriteType = {
+        name = "GFX_idea_GBR_britannia"
+        texturefile = "gfx/interface/ideas/GBR_britannia.dds"
+    }
 
 
 

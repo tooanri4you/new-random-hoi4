@@ -6,6 +6,7 @@ state={
 	state_category = megalopolis
 
 	history={
+		set_state_flag = ENG_controls
 		owner = ENG
 		victory_points = {
 			6103 50 
