@@ -1893,7 +1893,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
 				stability_factor = 0.15
 				war_support_factor = 0.15
 				army_core_attack_factor = 0.1
@@ -1919,7 +1919,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				army_core_attack_factor = 0.2
@@ -1947,7 +1947,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				army_core_attack_factor = 0.2
@@ -1975,7 +1975,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				army_core_attack_factor = 0.2
@@ -2003,7 +2003,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				army_core_attack_factor = 0.2
