@@ -1,6 +1,182 @@
-political_actions = {
+generic_economic_policies = {
+	generic_factory_retooling = {
+		icon = generic_industry
+		priority = 100
+		available = {
+		}
 
-	
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			production_factory_efficiency_gain_factor = 0.5
+			industrial_capacity_factory = -0.1
+
+			civilian_factory_use = 5
+		}
+
+		days_remove = 9999
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	end_generic_factory_retooling = {
+		icon = generic_industry
+		priority = 100
+		available = {
+			has_decision = generic_factory_retooling
+		}
+
+		visible = {
+			has_decision = generic_factory_retooling
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		complete_effect = {
+			remove_decision = generic_factory_retooling
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+
+generic_military_policies = {
+	generic_mercenaries = {
+		icon = generic_industry
+		priority = 100
+		available = {
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			training_time_factor = -0.75
+			experience_gain_army_factor = -0.25
+			civilian_factory_use = 5
+		}
+
+		days_remove = 9999
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	end_generic_mercenaries = {
+		icon = generic_industry
+		priority = 100
+		available = {
+			has_decision = generic_mercenaries
+		}
+
+		visible = {
+			has_decision = generic_mercenaries
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		complete_effect = {
+			remove_decision = generic_mercenaries
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	generic_looser_draft = {
+		icon = generic_industry
+		priority = 100
+		available = {
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			weekly_manpower = 1000
+			mobilization_speed = 0.5
+			experience_gain_army_factor = -0.25
+			civilian_factory_use = 5
+		}
+
+		days_remove = 9999
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+
+			modifier = {
+				add = 5
+				manpower_per_military_factory < 2000
+			}
+		}
+	}
+
+	end_generic_looser_draft = {
+		icon = generic_industry
+		priority = 100
+		available = {
+			has_decision = generic_looser_draft
+		}
+
+		visible = {
+			has_decision = generic_looser_draft
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		complete_effect = {
+			remove_decision = generic_looser_draft
+		}
+
+		ai_will_do = {
+			base = 0
+
+			modifier = {
+				add = 5
+				manpower_per_military_factory > 2000
+			}
+		}
+	}
+}
+
+political_actions = {	
 	targeted_race_for_the_bomb = {
 
 		icon = generic_research

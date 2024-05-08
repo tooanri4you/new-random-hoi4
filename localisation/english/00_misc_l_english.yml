@@ -3,6 +3,22 @@
  generic_economic_policies:0 "Economic Policies"
  generic_military_policies:0 "Military Policies"
 
+ # Generic Decisions
+ generic_factory_retooling:0 "§GStart§! Factory Retooling"
+ generic_factory_retooling_desc:0 "Our factories will work much more efficiently."
+ end_generic_factory_retooling:0 "§REnd§! Factory Retooling"
+ end_generic_factory_retooling_desc:0 "Our factories will no longer work much more efficiently."
+ 
+ generic_mercenaries:0 "§GHire§! Mercenaries"
+ generic_mercenaries_desc:0 "Mercenaries will allow us to train our armies much faster."
+ end_generic_mercenaries:0 "§RDisband§! Mercenaries"
+ end_generic_mercenaries_desc:0 "Mercenaries will no longer help us training our armoues."
+ 
+ generic_looser_draft:0 "§GSlacken§! Draft Standards"
+ generic_looser_draft_desc:0 "No matter if its a woman, a child, or dissabled, they all hold a gun the same."
+ end_generic_looser_draft:0 "§RTighten§! Draft Standards"
+ end_generic_looser_draft_desc:0 "Only the best of the best will do for our military."
+
  # Refineries
  steel_refinery:0 "Steel Refinery"
  steel_refinery_desc:0 "This building provides the state with"

@@ -1,6 +1,6 @@
 generic_economic_policies = {
 	icon = generic_economy
-
+	priority = 100
 	allowed = {
 
 	}
@@ -10,7 +10,7 @@ generic_economic_policies = {
 }
 generic_military_policies = {
 	icon = army_reform
-
+	priority = 100
 	allowed = {
 		
 	}
