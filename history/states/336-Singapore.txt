@@ -14,7 +14,7 @@ state = {
 	}
 
 	history = {
-		set_state_flag = ENG_controls
+		set_state_flag = ENG_britanniastate
 
 		owner = MAL
 		add_core_of = MAL

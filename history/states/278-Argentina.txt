@@ -6,7 +6,7 @@ state = {
 	state_category = large_city
 
 	history = {
-		set_state_flag = ENG_controls
+		set_state_flag = ENG_britanniastate
 
 		owner = ARG
 		add_core_of = ARG

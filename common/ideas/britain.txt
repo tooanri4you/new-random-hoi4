@@ -1894,8 +1894,8 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = 0.05
-				stability_factor = 0.15
-				war_support_factor = 0.15
+				stability_factor = 0.1
+				war_support_factor = 0.1
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
@@ -1920,12 +1920,10 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = 0.05
-				stability_factor = 0.2
-				war_support_factor = 0.2
-				army_core_attack_factor = 0.2
-				army_core_defence_factor = 0.2
-				industrial_capacity_factory = 0.1
-				local_resources_factor	= 0.2
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 
 			picture = GBR_britannia
@@ -1950,10 +1948,9 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 				stability_factor = 0.2
 				war_support_factor = 0.2
-				army_core_attack_factor = 0.2
-				army_core_defence_factor = 0.2
-				industrial_capacity_factory = 0.1
-				local_resources_factor	= 0.2
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				local_resources_factor	= 0.1
 			}
 
 			picture = GBR_britannia
@@ -1975,12 +1972,11 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = 0.05
+				production_speed_buildings_factor = 0.1
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				army_core_attack_factor = 0.2
 				army_core_defence_factor = 0.2
-				industrial_capacity_factory = 0.1
 				local_resources_factor	= 0.2
 			}
 
@@ -2003,7 +1999,7 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = 0.05
+				production_speed_buildings_factor = 0.1
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				army_core_attack_factor = 0.2
