@@ -69,5 +69,13 @@ NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT
 ---- Building Slots
 NDefines.NBuildings.MAX_SHARED_SLOTS = 28
 
+---- Construction and Production balance changes
+NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 10    -- 15  -- Max number of factories that can be assigned a single production line. 
+NDefines.NProduction.BASE_FACTORY_SPEED = 1             -- 5   -- Base factory speed multiplier (how much hoi3 style IC each factory gives).
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 1         -- 4.5 -- Base factory speed multiplier (how much hoi3 style IC each factory gives).
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 1         -- 2.5 -- Base factory speed multiplier (how much hoi3 style IC each factory gives).
+
+NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 100   -- 50 -- Base max efficiency for factories expressed in %.
+
 ---- Non core manpower increased
 NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.05                      -- 0.02
