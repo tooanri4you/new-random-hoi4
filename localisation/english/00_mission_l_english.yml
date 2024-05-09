@@ -1,0 +1,14 @@
+﻿l_english:
+ # Generic
+ NOCONTENT_base:0 "No Mission Tree"
+ NOCONTENT_base_desc:0 ""
+ NOCONTENT_base_tt:0 "§LThis country currently has no content, thus, doesnt have a mission tree. We are always working on adding more content to the mod, so be patient!§!"
+ # Everything China Related
+ CHI_chinese_unity_mission:0 "Chinese Unity"
+ CHI_chinese_unity_mission_desc:0 ""
+
+ CHI_secure_manchuria_mission:0 "Secure Manchuria"
+ CHI_secure_manchuria_mission_desc:0 ""
+
+ CHI_secure_korea_mission:0 "Secure Korea"
+ CHI_secure_korea_mission_desc:0 ""

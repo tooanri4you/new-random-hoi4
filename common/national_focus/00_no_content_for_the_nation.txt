@@ -12,8 +12,6 @@
 		id = NOCONTENT_base
 		icon = GFX_
 		
-		text = "No Mission Tree"
-		
 		x = 5
 		y = 0
 
@@ -37,7 +35,7 @@
 
 		search_filters = {  }
 		completion_reward = {
-			custom_effect_tooltip = "This country currently has no mission tree added to it, Expect it in the future"
+			custom_effect_tooltip = NOCONTENT_base_tt
 		}
 	}
 }
