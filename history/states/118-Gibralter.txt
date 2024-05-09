@@ -6,6 +6,9 @@ state=
 	
 	state_category = enclave
 	history={
+		set_state_flag = ENG_controls
+		set_state_flag = ENG_britanniastate
+		set_state_flag = ENG_startingbritanniastate
 		owner = ENG
 		victory_points = { 4135 10 }
 		buildings = {

@@ -5,6 +5,9 @@ state = {
 	state_category = wasteland
 
 	history = {
+		set_state_flag = ENG_controls
+		set_state_flag = ENG_britanniastate
+		set_state_flag = ENG_startingbritanniastate
 
 		owner = ENG
 		add_core_of = EGY

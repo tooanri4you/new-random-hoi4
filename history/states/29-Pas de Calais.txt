@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = ENG_britanniastate
 		victory_points = {
 			575 5
 		}

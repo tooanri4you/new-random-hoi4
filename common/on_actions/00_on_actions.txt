@@ -4284,4 +4284,65 @@ on_actions = {
 			}
 		}
 	}
-}
+	on_state_control_changed = {
+			effect = {
+				if = {
+					limit = {
+						FROM = {
+							OR = { 
+								is_puppet_of = ENG
+								tag = ENG
+							}
+						}
+						FROM.FROM = {
+							has_state_flag = ENG_controls
+							has_state_flag = ENG_britanniastate
+						}
+					}
+					FROM.FROM = {  
+						clr_state_flag = ENG_controls
+					}
+
+					ENG = {
+						britannia_bases_level_down = yes
+					}
+				}
+			}
+	}
+	on_state_control_changed = {
+			effect = {
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								tag = ENG
+								is_puppet_of = ENG
+							} 
+						}
+						FROM.FROM = {
+							has_state_flag = ENG_britanniastate
+						}
+					}
+					FROM.FROM = { 
+						set_state_flag = ENG_controls 
+					}
+					ENG = {
+						britannia_bases_level_up = yes
+					}
+				}
+			}
+	}
+	on_startup = {
+		effect = {
+			every_state = {
+				limit = { has_state_flag = ENG_startingbritanniastate }
+					THIS = {
+						clr_state_flag = startingbritanniastate  
+					}
+					ENG = {
+						britannia_bases_level_up = yes
+					}
+			}
+		}	
+	}
+}	

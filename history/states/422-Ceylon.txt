@@ -11,6 +11,7 @@ state=
 	}
 
 	history={
+		set_state_flag = ENG_britanniastate
 		add_core_of = RAJ
 		owner = RAJ
 		victory_points = {
