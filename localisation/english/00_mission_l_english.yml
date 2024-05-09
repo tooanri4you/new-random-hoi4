@@ -5,10 +5,10 @@
  NOCONTENT_base_tt:0 "§LThis country currently has no content, thus, doesnt have a mission tree. We are always working on adding more content to the mod, so be patient!§!"
  # Everything China Related
  CHI_chinese_unity_mission:0 "Chinese Unity"
- CHI_chinese_unity_mission_desc:0 ""
+ CHI_chinese_unity_mission_desc:0 "In 1934, China's warlords have coalesced under the strong leadership of Chiang Kai-shek. While unifying with the Communists in the north proves difficult, others have readily joined the cause. However, the remnants of the Qing Dynasty, entrenched in Manchuria, defy our rule. We must strive to unify all of China under one banner! \n§YOne China - Strong China!§!"
 
  CHI_secure_manchuria_mission:0 "Secure Manchuria"
- CHI_secure_manchuria_mission_desc:0 ""
+ CHI_secure_manchuria_mission_desc:0 "The Qing challenge has been broken. Their forces, scattered and demoralized, cling desperately to the northern fringes. With their expulsion, vast swathes of Manchuria lie open. This land, rich in resources and steeped in Chinese history, rightfully belongs to a unified China."
 
  CHI_secure_korea_mission:0 "Secure Korea"
- CHI_secure_korea_mission_desc:0 ""
+ CHI_secure_korea_mission_desc:0 "The divided peninsula cries out for unification. The legacy of foreign intervention has kept these kindred peoples apart for too long. With the liberation of Korea complete, a historic opportunity presents itself."
