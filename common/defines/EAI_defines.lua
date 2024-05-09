@@ -269,6 +269,10 @@ NDefines.NAI.AREA_DEFENSE_CAPITAL_BASE_WEIGHT = { 0.5, 1.0, 1.5 }
 NDefines.NAI.AREA_DEFENSE_HOME_BASE_WEIGHT = { 0.5, 1.0, 1.0 }
 NDefines.NAI.AREA_DEFENSE_OTHER_BASE_WEIGHT = { 0.5, 0.5, 1.0 }
 
+
+NDefines.NAI.MICRO_POCKET_SIZE = 6 -- 4 -- Pockets with a size equal to or lower than this will be mocroed by the AI, for efficiency.
+
+
 --------------------------------------------------------------------------------------------------------------
 -- NAVY AI
 --------------------------------------------------------------------------------------------------------------
