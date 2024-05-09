@@ -7,8 +7,18 @@
  CHI_chinese_unity_mission:0 "Chinese Unity"
  CHI_chinese_unity_mission_desc:0 "In 1934, China's warlords have coalesced under the strong leadership of Chiang Kai-shek. While unifying with the Communists in the north proves difficult, others have readily joined the cause. However, the remnants of the Qing Dynasty, entrenched in Manchuria, defy our rule. We must strive to unify all of China under one banner! \n§YOne China - Strong China!§!"
 
- CHI_secure_manchuria_mission:0 "Secure Manchuria"
+ CHI_secure_manchuria_mission:0 "Forge a New Manchuria"
  CHI_secure_manchuria_mission_desc:0 "The Qing challenge has been broken. Their forces, scattered and demoralized, cling desperately to the northern fringes. With their expulsion, vast swathes of Manchuria lie open. This land, rich in resources and steeped in Chinese history, rightfully belongs to a unified China."
 
- CHI_secure_korea_mission:0 "Secure Korea"
+ CHI_secure_korea_mission:0 "Unite the Korean Peninsula"
  CHI_secure_korea_mission_desc:0 "The divided peninsula cries out for unification. The legacy of foreign intervention has kept these kindred peoples apart for too long. With the liberation of Korea complete, a historic opportunity presents itself."
+
+ CHI_liberate_qingdao_mission:0 "Liberate Qingdao"
+ CHI_liberate_qingdao_mission_desc:0 "The strategic port of Qingdao sits in foreign hands, a symbol of China's past humiliation. This vital harbor, nestled on the Shandong Peninsula, offers invaluable access to the Pacific and control over vital trade routes."
+
+ CHI_naval_expansion:0 "Forge a Mighty Fleet"
+ CHI_naval_expansion_desc:0 "China's destiny lies not only on land, but also upon the vast expanse of the seas. To secure your nation's future and project your growing power, a formidable navy is essential."
+
+ CHI_control_the_skies:0 "Seize Control of the Skies"
+ CHI_control_the_skies_desc:0 "China's future hinges not only on land and sea, but also in the mastery of the skies. Enemy aircraft pose a serious threat to your troops and infrastructure. To dominate the battlefield and secure your nation's airspace, a robust air force is paramount."
+
