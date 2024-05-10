@@ -106,6 +106,7 @@ generic_economic_policies = {
 		available = {
 			num_of_factories < 44
 		}
+		fire_only_once = yes
 
 		cost = 90
 		ai_will_do = {
